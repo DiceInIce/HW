@@ -1,0 +1,96 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\germa\\Desktop\\TOP\\HW\\4.1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6D066129-C00B-4A13-943D-EB5A8FC11450}|4.1.4\\4.1.4.vcxproj|C:\\Users\\germa\\Desktop\\TOP\\HW\\4.1\\4.1.4\\4.1.4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6D066129-C00B-4A13-943D-EB5A8FC11450}|4.1.4\\4.1.4.vcxproj|solutionrelative:4.1.4\\4.1.4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{73B60C60-F163-4D2D-891B-2EC68D1EC447}|4.1.3\\4.1.3.vcxproj|C:\\Users\\germa\\Desktop\\TOP\\HW\\4.1\\4.1.3\\4.1.3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{73B60C60-F163-4D2D-891B-2EC68D1EC447}|4.1.3\\4.1.3.vcxproj|solutionrelative:4.1.3\\4.1.3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A8F816ED-7F01-4AB9-93D2-E443FAAD0476}|4.1\\4.1.vcxproj|C:\\Users\\germa\\Desktop\\TOP\\HW\\4.1\\4.1\\4.1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A8F816ED-7F01-4AB9-93D2-E443FAAD0476}|4.1\\4.1.vcxproj|solutionrelative:4.1\\4.1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9442A7F8-0BC8-4CD4-886C-3DCA635493FF}|4.1.2\\4.1.2.vcxproj|C:\\Users\\germa\\Desktop\\TOP\\HW\\4.1\\4.1.2\\4.1.2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9442A7F8-0BC8-4CD4-886C-3DCA635493FF}|4.1.2\\4.1.2.vcxproj|solutionrelative:4.1.2\\4.1.2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "4.1.4.cpp",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\4.1\\4.1.4\\4.1.4.cpp",
+              "RelativeDocumentMoniker": "4.1.4\\4.1.4.cpp",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\4.1\\4.1.4\\4.1.4.cpp",
+              "RelativeToolTip": "4.1.4\\4.1.4.cpp",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAACYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-23T14:51:48.738Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "4.1.3.cpp",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\4.1\\4.1.3\\4.1.3.cpp",
+              "RelativeDocumentMoniker": "4.1.3\\4.1.3.cpp",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\4.1\\4.1.3\\4.1.3.cpp",
+              "RelativeToolTip": "4.1.3\\4.1.3.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-23T14:33:55.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "4.1.2.cpp",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\4.1\\4.1.2\\4.1.2.cpp",
+              "RelativeDocumentMoniker": "4.1.2\\4.1.2.cpp",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\4.1\\4.1.2\\4.1.2.cpp",
+              "RelativeToolTip": "4.1.2\\4.1.2.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-23T14:08:38.151Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "4.1.cpp",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\4.1\\4.1\\4.1.cpp",
+              "RelativeDocumentMoniker": "4.1\\4.1.cpp",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\4.1\\4.1\\4.1.cpp",
+              "RelativeToolTip": "4.1\\4.1.cpp",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAwAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-12-23T13:17:00.458Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

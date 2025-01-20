@@ -1,0 +1,90 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\germa\\Desktop\\TOP\\HW\\8.2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7A0EF3DF-1058-44D1-A553-0F94C9BCDBDD}|8.2.3\\8.2.3.vcxproj|C:\\Users\\germa\\Desktop\\TOP\\HW\\8.2\\8.2.3\\8.2.3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{7A0EF3DF-1058-44D1-A553-0F94C9BCDBDD}|8.2.3\\8.2.3.vcxproj|solutionrelative:8.2.3\\8.2.3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2EC5D890-851E-43BB-9FFC-1D49C7B96773}|8.2.4\\8.2.4.vcxproj|C:\\Users\\germa\\Desktop\\TOP\\HW\\8.2\\8.2.4\\8.2.4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{2EC5D890-851E-43BB-9FFC-1D49C7B96773}|8.2.4\\8.2.4.vcxproj|solutionrelative:8.2.4\\8.2.4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32D9FADD-D383-45C2-AB32-261A6C552F5F}|8.2.1\\8.2.1.vcxproj|C:\\Users\\germa\\Desktop\\TOP\\HW\\8.2\\8.2.1\\8.2.1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{32D9FADD-D383-45C2-AB32-261A6C552F5F}|8.2.1\\8.2.1.vcxproj|solutionrelative:8.2.1\\8.2.1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{92AFE769-463D-4B39-98F6-02C7049D0AA6}|8.2.2\\8.2.2.vcxproj|C:\\Users\\germa\\Desktop\\TOP\\HW\\8.2\\8.2.2\\8.2.2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{92AFE769-463D-4B39-98F6-02C7049D0AA6}|8.2.2\\8.2.2.vcxproj|solutionrelative:8.2.2\\8.2.2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "8.2.4.cpp",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\8.2\\8.2.4\\8.2.4.cpp",
+              "RelativeDocumentMoniker": "8.2.4\\8.2.4.cpp",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\8.2\\8.2.4\\8.2.4.cpp",
+              "RelativeToolTip": "8.2.4\\8.2.4.cpp",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAvwB0AAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-13T17:35:01.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "8.2.3.cpp",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\8.2\\8.2.3\\8.2.3.cpp",
+              "RelativeDocumentMoniker": "8.2.3\\8.2.3.cpp",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\8.2\\8.2.3\\8.2.3.cpp",
+              "RelativeToolTip": "8.2.3\\8.2.3.cpp",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-13T17:13:56.772Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "8.2.2.cpp",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\8.2\\8.2.2\\8.2.2.cpp",
+              "RelativeDocumentMoniker": "8.2.2\\8.2.2.cpp",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\8.2\\8.2.2\\8.2.2.cpp",
+              "RelativeToolTip": "8.2.2\\8.2.2.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-13T16:36:50.34Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "8.2.1.cpp",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\8.2\\8.2.1\\8.2.1.cpp",
+              "RelativeDocumentMoniker": "8.2.1\\8.2.1.cpp",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\8.2\\8.2.1\\8.2.1.cpp",
+              "RelativeToolTip": "8.2.1\\8.2.1.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-01-13T16:15:48.306Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
