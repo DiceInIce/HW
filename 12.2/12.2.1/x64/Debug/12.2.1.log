@@ -1,0 +1,4 @@
+﻿  12.2.1.cpp
+C:\Users\germa\Desktop\TOP\HW\12.2\12.2.1\12.2.1.cpp(58,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\germa\Desktop\TOP\HW\12.2\12.2.1\12.2.1.cpp(61,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  12.2.1.vcxproj -> C:\Users\germa\Desktop\TOP\HW\12.2\x64\Debug\12.2.1.exe
