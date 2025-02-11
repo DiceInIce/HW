@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\germa\\Desktop\\TOP\\HW\\14.2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9CD5533F-07C7-4ED1-96D5-10E496AB369F}|14.2.3\\14.2.3.vcxproj|C:\\Users\\germa\\Desktop\\TOP\\HW\\14.2\\14.2.3\\14.2.3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{9CD5533F-07C7-4ED1-96D5-10E496AB369F}|14.2.3\\14.2.3.vcxproj|solutionrelative:14.2.3\\14.2.3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCF0A0E5-9495-4AFF-BE51-7B5867412639}|14.2.2\\14.2.2.vcxproj|C:\\Users\\germa\\Desktop\\TOP\\HW\\14.2\\14.2.2\\14.2.2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BCF0A0E5-9495-4AFF-BE51-7B5867412639}|14.2.2\\14.2.2.vcxproj|solutionrelative:14.2.2\\14.2.2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CFEADEB4-6A02-47E8-82AD-19E5CE311A43}|14.2.1\\14.2.1.vcxproj|C:\\Users\\germa\\Desktop\\TOP\\HW\\14.2\\14.2.1\\14.2.1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CFEADEB4-6A02-47E8-82AD-19E5CE311A43}|14.2.1\\14.2.1.vcxproj|solutionrelative:14.2.1\\14.2.1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "14.2.3.cpp",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\14.2\\14.2.3\\14.2.3.cpp",
+              "RelativeDocumentMoniker": "14.2.3\\14.2.3.cpp",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\14.2\\14.2.3\\14.2.3.cpp",
+              "RelativeToolTip": "14.2.3\\14.2.3.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-11T13:29:49.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "14.2.2.cpp",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\14.2\\14.2.2\\14.2.2.cpp",
+              "RelativeDocumentMoniker": "14.2.2\\14.2.2.cpp",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\14.2\\14.2.2\\14.2.2.cpp",
+              "RelativeToolTip": "14.2.2\\14.2.2.cpp",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-11T12:54:58.453Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "14.2.1.cpp",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\14.2\\14.2.1\\14.2.1.cpp",
+              "RelativeDocumentMoniker": "14.2.1\\14.2.1.cpp",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\14.2\\14.2.1\\14.2.1.cpp",
+              "RelativeToolTip": "14.2.1\\14.2.1.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-02-11T12:14:20.223Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

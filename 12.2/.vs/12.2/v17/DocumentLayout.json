@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\germa\\Desktop\\TOP\\HW\\12.2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{D27F9BF2-C12F-4F7A-9195-FEFE27863872}|12.2.3\\12.2.3.vcxproj|C:\\Users\\germa\\Desktop\\TOP\\HW\\12.2\\12.2.3\\12.2.3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{D27F9BF2-C12F-4F7A-9195-FEFE27863872}|12.2.3\\12.2.3.vcxproj|solutionrelative:12.2.3\\12.2.3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{53290530-937C-4898-A109-09A33428D034}|12.2.1\\12.2.1.vcxproj|C:\\Users\\germa\\Desktop\\TOP\\HW\\12.2\\12.2.1\\12.2.1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{53290530-937C-4898-A109-09A33428D034}|12.2.1\\12.2.1.vcxproj|solutionrelative:12.2.1\\12.2.1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3259FDCA-28A9-4AA7-90C3-D433415B9E3D}|12.2.2\\12.2.2.vcxproj|C:\\Users\\germa\\Desktop\\TOP\\HW\\12.2\\12.2.2\\12.2.2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{3259FDCA-28A9-4AA7-90C3-D433415B9E3D}|12.2.2\\12.2.2.vcxproj|solutionrelative:12.2.2\\12.2.2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{53290530-937C-4898-A109-09A33428D034}|12.2.1\\12.2.1.vcxproj|C:\\Users\\germa\\Desktop\\TOP\\HW\\12.2\\12.2.1\\12.2.1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{53290530-937C-4898-A109-09A33428D034}|12.2.1\\12.2.1.vcxproj|solutionrelative:12.2.1\\12.2.1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{D27F9BF2-C12F-4F7A-9195-FEFE27863872}|12.2.3\\12.2.3.vcxproj|C:\\Users\\germa\\Desktop\\TOP\\HW\\12.2\\12.2.3\\12.2.3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{D27F9BF2-C12F-4F7A-9195-FEFE27863872}|12.2.3\\12.2.3.vcxproj|solutionrelative:12.2.3\\12.2.3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,13 +30,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "12.2.3.cpp",
               "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\12.2\\12.2.3\\12.2.3.cpp",
               "RelativeDocumentMoniker": "12.2.3\\12.2.3.cpp",
               "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\12.2\\12.2.3\\12.2.3.cpp",
               "RelativeToolTip": "12.2.3\\12.2.3.cpp",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB4AAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAADsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-04T15:31:22.214Z",
               "EditorCaption": ""
@@ -49,20 +49,20 @@
               "RelativeDocumentMoniker": "12.2.2\\12.2.2.cpp",
               "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\12.2\\12.2.2\\12.2.2.cpp",
               "RelativeToolTip": "12.2.2\\12.2.2.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-04T15:11:15.572Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "12.2.1.cpp",
               "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\12.2\\12.2.1\\12.2.1.cpp",
               "RelativeDocumentMoniker": "12.2.1\\12.2.1.cpp",
               "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\12.2\\12.2.1\\12.2.1.cpp",
               "RelativeToolTip": "12.2.1\\12.2.1.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAAAB8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-02-04T14:43:51.102Z",
               "EditorCaption": ""
