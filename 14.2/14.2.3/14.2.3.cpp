@@ -39,8 +39,7 @@ void separateElements(int* arr, int size,
     }
 }
 
-int main()
-{
+int main() {
     setlocale(LC_ALL, "");
 
     const int size = 100;
