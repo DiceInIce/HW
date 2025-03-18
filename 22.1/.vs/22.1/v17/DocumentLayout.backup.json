@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\germa\\Desktop\\TOP\\HW\\22.1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{29D8823B-1AC6-42B8-A7FF-D828F63C95ED}|22.1\\22.1.vcxproj|C:\\Users\\germa\\Desktop\\TOP\\HW\\22.1\\22.1\\22.1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{29D8823B-1AC6-42B8-A7FF-D828F63C95ED}|22.1\\22.1.vcxproj|solutionrelative:22.1\\22.1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 171,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "22.1.cpp",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\22.1\\22.1\\22.1.cpp",
+              "RelativeDocumentMoniker": "22.1\\22.1.cpp",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\22.1\\22.1\\22.1.cpp",
+              "RelativeToolTip": "22.1\\22.1.cpp",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAAANMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-18T11:24:22.677Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
