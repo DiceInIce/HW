@@ -1,0 +1,6 @@
+﻿  function.cpp
+C:\Users\germa\Desktop\TOP\HW\20.2\20.2\function.cpp(53,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\germa\Desktop\TOP\HW\20.2\20.2\function.cpp(98,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  prog.cpp
+  Создание кода...
+  20.2.vcxproj -> C:\Users\germa\Desktop\TOP\HW\20.2\x64\Debug\20.2.exe
