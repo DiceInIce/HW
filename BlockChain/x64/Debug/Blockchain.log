@@ -1,0 +1,47 @@
+﻿  Block.cpp
+  BlockChain.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xmemory(698,14): error C2672: "std::construct_at": не найдена соответствующая перегруженная функция
+  (компиляция исходного файла "BlockChain.cpp")
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(391,16):
+      может быть "_Ty *std::construct_at(_Ty *const ,_Types ...) noexcept(<expr>)"
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xmemory(698,14):
+          связанные ограничения не соблюдаются
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(389,50):
+              "Block::Block": ни одна перегруженная функция не может преобразовать все типы аргументов
+                  C:\Users\germa\Desktop\TOP\HW\Blockchain\Blockchain\Block.hpp(19,2):
+                  может быть "Block::Block(std::vector<Transaction,std::allocator<Transaction>>,std::string)"
+                      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(389,50):
+                      "Block::Block(std::vector<Transaction,std::allocator<Transaction>>,std::string)": невозможно преобразовать аргумент 1 из "std::string" в "std::vector<Transaction,std::allocator<Transaction>>"
+                          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(389,71):
+                          Для выполнения данного преобразования нет доступного оператора преобразования, определенного пользователем, или вызов оператора невозможен
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xutility(389,50):
+                  при попытке сопоставить список аргументов "(std::string, std::vector<Transaction,std::allocator<Transaction>>)"
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xmemory(698,14):
+      контекст создания экземпляра шаблона (сначала самый старый)
+          C:\Users\germa\Desktop\TOP\HW\Blockchain\Blockchain\BlockChain.cpp(14,8):
+          выполняется компиляция ссылки на экземпляр шаблон функции "Block &std::vector<Block,std::allocator<Block>>::emplace_back<std::string&,std::vector<Transaction,std::allocator<Transaction>>&>(std::string &,std::vector<Transaction,std::allocator<Transaction>> &)"
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(858,24):
+          выполняется компиляция ссылки на экземпляр шаблон функции "_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<std::string&,std::vector<Transaction,std::allocator<Transaction>>&>(std::string &,std::vector<Transaction,std::allocator<Transaction>> &)"
+          with
+          [
+              _Ty=Block
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(776,20):
+          выполняется компиляция ссылки на экземпляр шаблон функции "_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<std::string&,std::vector<Transaction,std::allocator<Transaction>>&>(std::string &,std::vector<Transaction,std::allocator<Transaction>> &)"
+          with
+          [
+              _Ty=Block
+          ]
+          C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\vector(794,27):
+          выполняется компиляция ссылки на экземпляр шаблон функции "void std::_Default_allocator_traits<_Alloc>::construct<_Ty,std::string&,std::vector<Transaction,std::allocator<Transaction>>&>(_Alloc &,_Objty *const ,std::string &,std::vector<Transaction,std::allocator<Transaction>> &)"
+          with
+          [
+              _Alloc=std::allocator<Block>,
+              _Ty=Block,
+              _Objty=Block
+          ]
+  
+  main.cpp
+  SHA256.cpp
+  Transaction.cpp
+  Создание кода...
