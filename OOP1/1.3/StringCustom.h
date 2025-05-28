@@ -9,7 +9,9 @@ class StringCustom
 	char* str;
 	size_t lenght;
 
-	StringCustom& operator=(const StringCustom&);
+	static int objectCount;
+
+	
 
 public:
 
@@ -17,9 +19,12 @@ public:
 	StringCustom(size_t);
 	StringCustom(const char*);
 	StringCustom(const StringCustom&);
+	StringCustom& operator=(const StringCustom&);
 
 	void input();
 	void display();
+	static int getObjectCount();
+
 
 	~StringCustom();
 };

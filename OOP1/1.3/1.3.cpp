@@ -5,6 +5,7 @@
 
 using namespace std;
 
+int StringCustom::objectCount = 0;
 
 int main() {
     setlocale(LC_ALL, "");
@@ -30,6 +31,7 @@ int main() {
     StringCustom s5 = s4;
     s5.display();
     cout << endl;
+    cout << StringCustom::getObjectCount() << endl;
 
     return 0;
 }
