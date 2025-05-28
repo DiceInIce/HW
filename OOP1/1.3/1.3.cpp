@@ -1,74 +1,35 @@
-﻿#include <iostream>
+#include <iostream>
 #include <cstring>
+#include "StringCustom.h"
+
+
 using namespace std;
 
-class String {
-private:
-    char* str;          
-    size_t size;
-
-    static int objectCount;
-
-public:
-    
-    String() : String(80) {}
-
-    
-    String(size_t length) {
-        size = length + 1;
-        str = new char[size];
-        str[0] = '\0';
-        objectCount++;
-    }
-
-    
-    String(const char* input) {
-        size = strlen(input) + 1;
-        str = new char[size];
-        strcpy(str, input);
-        objectCount++;
-    }
-
-   
-    ~String() {
-        delete[] str;
-        objectCount--;
-    }
-
-    
-    void input() {
-        cout << "Enter string: ";
-        cin.ignore();
-        cin.getline(str, size);
-    }
-
-
-    void display() const {
-        cout << "String: " << str << endl;
-    }
-
-    static int getObjectCount() {
-        return objectCount;
-    }
-};
-
-int String::objectCount = 0;
 
 int main() {
     setlocale(LC_ALL, "");
 
-    String s1;
+    StringCustom s1;
     s1.input();
     s1.display();
+    cout << endl;
 
-    String s2(30);
+    StringCustom s2(30);
     s2.input();
     s2.display();
+    cout << endl;
 
-    String s3("Hello, world!");
+    StringCustom s3("Hello, world!");
     s3.display();
+    cout << endl;
 
-    cout << "Всего строк создано: " << String::getObjectCount() << endl;
+    StringCustom s4(s3);
+    s4.display();
+    cout << endl;
+
+    StringCustom s5 = s4;
+    s5.display();
+    cout << endl;
 
     return 0;
 }

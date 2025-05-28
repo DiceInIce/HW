@@ -16,10 +16,9 @@ private:
     string additionalInfo;
 
 public:
-    // Конструктор по умолчанию
+
     Contact() : fullName(nullptr), homePhone(""), workPhone(""), mobilePhone(""), additionalInfo("") {}
 
-    // Конструктор с параметрами
     Contact(const char* name, const string& home, const string& work,
             const string& mobile, const string& info)
         : homePhone(home), workPhone(work), mobilePhone(mobile), additionalInfo(info)
@@ -28,7 +27,6 @@ public:
         strcpy(fullName, name);
     }
 
-    // Конструктор копирования
     Contact(const Contact& other) {
         fullName = new char[strlen(other.fullName) + 1];
         strcpy(fullName, other.fullName);
@@ -38,7 +36,6 @@ public:
         additionalInfo = other.additionalInfo;
     }
 
-    // Оператор присваивания
     Contact& operator=(const Contact& other) {
         if (this != &other) {
             delete[] fullName;
@@ -52,17 +49,14 @@ public:
         return *this;
     }
 
-    // Деструктор
     ~Contact() {
         delete[] fullName;
     }
 
-    // Inline-геттер для ФИО
     const char* getFullName() const {
         return fullName;
     }
 
-    // Показать контакт
     void display() const {
         cout << "Полное имя: " << fullName << endl;
         cout << "Домашний: " << homePhone << endl;
@@ -72,7 +66,6 @@ public:
         cout << "-------------------------------" << endl;
     }
 
-    // Сохранение в файл
     void save(ofstream& out) const {
         size_t len = strlen(fullName);
         out.write(reinterpret_cast<const char*>(&len), sizeof(len));
@@ -96,7 +89,6 @@ public:
         out.write(additionalInfo.c_str(), fieldSize);
     }
 
-    // Загрузка из файла
     void load(ifstream& in) {
         size_t len;
         in.read(reinterpret_cast<char*>(&len), sizeof(len));
@@ -138,10 +130,10 @@ public:
     }
 };
 
-// Хранилище всех контактов
+
 vector<Contact> phonebook;
 
-// Добавить контакт
+
 void addContact() {
     char name[100];
     string home, work, mobile, info;
@@ -162,7 +154,7 @@ void addContact() {
     cout << "Контакт добавлен" << endl;
 }
 
-// Показать всех
+
 void showAll() {
     if (phonebook.empty()) {
         cout << "Книга пуста." << endl;
@@ -173,7 +165,7 @@ void showAll() {
     }
 }
 
-// Поиск по ФИО
+
 void searchContact() {
     string query;
     cout << "Введите полное имя для поиска: ";
@@ -193,7 +185,7 @@ void searchContact() {
     }
 }
 
-// Удалить по ФИО
+
 void deleteContact() {
     string query;
     cout << "Введите полное имя для удаления: ";
@@ -215,7 +207,7 @@ void deleteContact() {
     }
 }
 
-// Сохранение в файл
+
 void saveToFile(const string& filename) {
     ofstream out(filename, ios::binary);
     if (!out) {
@@ -233,7 +225,7 @@ void saveToFile(const string& filename) {
     cout << "Сохранено" << endl;
 }
 
-// Загрузка из файла
+
 void loadFromFile(const string& filename) {
     ifstream in(filename, ios::binary);
     if (!in) {
@@ -254,7 +246,6 @@ void loadFromFile(const string& filename) {
     cout << "Данные загружены." << endl;
 }
 
-// Главное меню
 void menu() {
     int choice;
     string filename = "phonebook.dat";
