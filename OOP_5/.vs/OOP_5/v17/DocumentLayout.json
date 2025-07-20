@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\germa\\Desktop\\TOP\\HW\\OOP_5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{60BC8B70-B1DF-4C33-93EB-7CB21D622AE0}|17\\17.vcxproj|C:\\Users\\germa\\Desktop\\TOP\\HW\\OOP_5\\17\\17.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{60BC8B70-B1DF-4C33-93EB-7CB21D622AE0}|17\\17.vcxproj|solutionrelative:17\\17.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60BC8B70-B1DF-4C33-93EB-7CB21D622AE0}|17\\17.vcxproj|C:\\Users\\germa\\Desktop\\TOP\\HW\\OOP_5\\17\\BinaryTree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{60BC8B70-B1DF-4C33-93EB-7CB21D622AE0}|17\\17.vcxproj|solutionrelative:17\\BinaryTree.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60BC8B70-B1DF-4C33-93EB-7CB21D622AE0}|17\\17.vcxproj|C:\\Users\\germa\\Desktop\\TOP\\HW\\OOP_5\\17\\BinaryTree.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{60BC8B70-B1DF-4C33-93EB-7CB21D622AE0}|17\\17.vcxproj|solutionrelative:17\\BinaryTree.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{60BC8B70-B1DF-4C33-93EB-7CB21D622AE0}|17\\17.vcxproj|C:\\Users\\germa\\Desktop\\TOP\\HW\\OOP_5\\17\\TrafficViolation.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{60BC8B70-B1DF-4C33-93EB-7CB21D622AE0}|17\\17.vcxproj|solutionrelative:17\\TrafficViolation.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{37B0B1B3-F5B7-4240-901B-A3DF01EB31CB}|16.3\\16.3.vcxproj|C:\\Users\\germa\\Desktop\\TOP\\HW\\OOP_5\\16.3\\16.3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{37B0B1B3-F5B7-4240-901B-A3DF01EB31CB}|16.3\\16.3.vcxproj|solutionrelative:16.3\\16.3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 260,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BinaryTree.cpp",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\OOP_5\\17\\BinaryTree.cpp",
+              "RelativeDocumentMoniker": "17\\BinaryTree.cpp",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\OOP_5\\17\\BinaryTree.cpp",
+              "RelativeToolTip": "17\\BinaryTree.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-20T13:14:22.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BinaryTree.hpp",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\OOP_5\\17\\BinaryTree.hpp",
+              "RelativeDocumentMoniker": "17\\BinaryTree.hpp",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\OOP_5\\17\\BinaryTree.hpp",
+              "RelativeToolTip": "17\\BinaryTree.hpp",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAUAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-20T13:14:20.337Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TrafficViolation.hpp",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\OOP_5\\17\\TrafficViolation.hpp",
+              "RelativeDocumentMoniker": "17\\TrafficViolation.hpp",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\OOP_5\\17\\TrafficViolation.hpp",
+              "RelativeToolTip": "17\\TrafficViolation.hpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-07-20T13:12:27.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "17.cpp",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\OOP_5\\17\\17.cpp",
+              "RelativeDocumentMoniker": "17\\17.cpp",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\OOP_5\\17\\17.cpp",
+              "RelativeToolTip": "17\\17.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-20T13:10:04.506Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "16.3.cpp",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\OOP_5\\16.3\\16.3.cpp",
+              "RelativeDocumentMoniker": "16.3\\16.3.cpp",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\OOP_5\\16.3\\16.3.cpp",
+              "RelativeToolTip": "16.3\\16.3.cpp",
+              "ViewState": "AgIAADYAAAAAAAAAAAAAAEcAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-07-20T12:58:33.453Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
