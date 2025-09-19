@@ -1,0 +1,15 @@
+C:\Users\germa\Desktop\TOP\HW\Patterns\Abstact_Factory_HW\bin\Debug\net8.0\Abstract_Factory_HW.exe
+C:\Users\germa\Desktop\TOP\HW\Patterns\Abstact_Factory_HW\bin\Debug\net8.0\Abstract_Factory_HW.deps.json
+C:\Users\germa\Desktop\TOP\HW\Patterns\Abstact_Factory_HW\bin\Debug\net8.0\Abstract_Factory_HW.runtimeconfig.json
+C:\Users\germa\Desktop\TOP\HW\Patterns\Abstact_Factory_HW\bin\Debug\net8.0\Abstract_Factory_HW.dll
+C:\Users\germa\Desktop\TOP\HW\Patterns\Abstact_Factory_HW\bin\Debug\net8.0\Abstract_Factory_HW.pdb
+C:\Users\germa\Desktop\TOP\HW\Patterns\Abstact_Factory_HW\obj\Debug\net8.0\Abstract_Factory_HW.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\Desktop\TOP\HW\Patterns\Abstact_Factory_HW\obj\Debug\net8.0\Abstract_Factory_HW.AssemblyInfoInputs.cache
+C:\Users\germa\Desktop\TOP\HW\Patterns\Abstact_Factory_HW\obj\Debug\net8.0\Abstract_Factory_HW.AssemblyInfo.cs
+C:\Users\germa\Desktop\TOP\HW\Patterns\Abstact_Factory_HW\obj\Debug\net8.0\Abstract_Factory_HW.csproj.CoreCompileInputs.cache
+C:\Users\germa\Desktop\TOP\HW\Patterns\Abstact_Factory_HW\obj\Debug\net8.0\Abstract_Factory_HW.sourcelink.json
+C:\Users\germa\Desktop\TOP\HW\Patterns\Abstact_Factory_HW\obj\Debug\net8.0\Abstract_Factory_HW.dll
+C:\Users\germa\Desktop\TOP\HW\Patterns\Abstact_Factory_HW\obj\Debug\net8.0\refint\Abstract_Factory_HW.dll
+C:\Users\germa\Desktop\TOP\HW\Patterns\Abstact_Factory_HW\obj\Debug\net8.0\Abstract_Factory_HW.pdb
+C:\Users\germa\Desktop\TOP\HW\Patterns\Abstact_Factory_HW\obj\Debug\net8.0\Abstract_Factory_HW.genruntimeconfig.cache
+C:\Users\germa\Desktop\TOP\HW\Patterns\Abstact_Factory_HW\obj\Debug\net8.0\ref\Abstract_Factory_HW.dll

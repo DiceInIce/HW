@@ -1,0 +1,88 @@
+@startuml
+namespace AbstactFactory {
+
+    interface ITransport {
+        +deliver() : void
+        +getType() : string
+    }
+
+    interface ITruck {
+        +getCargoCapacity() : int
+    }
+
+    interface IShip {
+        +getDisplacement() : int
+    }
+
+    ITruck --|> ITransport
+    IShip --|> ITransport
+
+    class CargoTruck {
+        -_type : string = "Грузовик"
+        -_capacity : int = 100
+        +deliver() : void
+        +getCargoCapacity() : int
+        +getType() : string
+    }
+
+    class PassengerVan {
+        -_type : string = "Автобус"
+        +deliver() : void
+        +getCargoCapacity() : int
+        +getType() : string
+    }
+
+    class CargoShip {
+        -_type : string = "Грузовой корабль"
+        -_displacement : int = 1000
+        +deliver() : void
+        +getDisplacement() : int
+        +getType() : string
+    }
+
+    class PassengerFerry {
+        -_type : string = "Паром"
+        +deliver() : void
+        +getDisplacement() : int
+        +getType() : string
+    }
+
+    CargoTruck ..|> ITruck
+    PassengerVan ..|> ITruck
+    CargoShip ..|> IShip
+    PassengerFerry ..|> IShip
+
+    interface ITransportFactory {
+        +createTruck() : ITruck
+        +createShip() : IShip
+    }
+
+    class CargoTransportFactory {
+        +createTruck() : ITruck
+        +createShip() : IShip
+    }
+
+    class PassengerTransportFactory {
+        +createTruck() : ITruck
+        +createShip() : IShip
+    }
+
+    CargoTransportFactory ..|> ITransportFactory
+    PassengerTransportFactory ..|> ITransportFactory
+
+    ITransportFactory ..> ITruck
+    ITransportFactory ..> IShip
+
+    class Client {
+        +Main() : void
+        +ClientMethod(factory : ITransportFactory) : void
+    }
+
+    class Program {
+        +Main() : void
+    }
+
+    Client --> ITransportFactory
+    Program --> Client
+}
+@enduml
