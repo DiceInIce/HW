@@ -1,0 +1,70 @@
+@startuml
+namespace Builder {
+
+class Report {
+    - string _result
+    + void addContent(string content)
+    + string getResult()
+    + int getWordCount()
+}
+
+interface IReportBuilder {
+    + void setTitle()
+    + void addHeader(string title)
+    + void addSection(string sectionTitle, string sectionContent)
+    + void addBulletList(string listTitle, List<string> items)
+    + void addFooter(string footer)
+    + Report build()
+}
+
+class TextReportBuilder {
+    - Report _report
+    + void setTitle()
+    + void addHeader(string header)
+    + void addSection(string sectionTitle, string sectionContent)
+    + void addBulletList(string listTitle, List<string> items)
+    + void addFooter(string footer)
+    + Report build()
+}
+
+class MarkdownReportBuilder {
+    - Report _report
+    + void setTitle()
+    + void addHeader(string header)
+    + void addSection(string sectionTitle, string sectionContent)
+    + void addBulletList(string listTitle, List<string> items)
+    + void addFooter(string footer)
+    + Report build()
+}
+
+class HtmlReportBuilder {
+    - Report _report
+    + void setTitle()
+    + void addHeader(string header)
+    + void addSection(string sectionTitle, string sectionContent)
+    + void addBulletList(string listTitle, List<string> items)
+    + void addFooter(string footer)
+    + Report build()
+}
+
+class ReportDirector {
+    - IReportBuilder _reportBuilder
+    + ReportDirector(IReportBuilder builder)
+    + void constructShortReport(string title, string dataTitle, string data)
+    + void constructDetailedReport(string title, string findingsTitle, List<string> findings, string conclusion)
+}
+
+
+' ===================== Relationships =====================
+IReportBuilder <|.. TextReportBuilder
+IReportBuilder <|.. MarkdownReportBuilder
+IReportBuilder <|.. HtmlReportBuilder
+
+TextReportBuilder --> Report
+MarkdownReportBuilder --> Report
+HtmlReportBuilder --> Report
+
+ReportDirector --> IReportBuilder
+}
+
+@enduml
