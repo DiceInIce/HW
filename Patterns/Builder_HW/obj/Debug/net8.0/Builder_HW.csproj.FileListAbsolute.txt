@@ -1,0 +1,15 @@
+C:\Users\germa\Desktop\TOP\HW\Patterns\Builder_HW\bin\Debug\net8.0\Builder_HW.exe
+C:\Users\germa\Desktop\TOP\HW\Patterns\Builder_HW\bin\Debug\net8.0\Builder_HW.deps.json
+C:\Users\germa\Desktop\TOP\HW\Patterns\Builder_HW\bin\Debug\net8.0\Builder_HW.runtimeconfig.json
+C:\Users\germa\Desktop\TOP\HW\Patterns\Builder_HW\bin\Debug\net8.0\Builder_HW.dll
+C:\Users\germa\Desktop\TOP\HW\Patterns\Builder_HW\bin\Debug\net8.0\Builder_HW.pdb
+C:\Users\germa\Desktop\TOP\HW\Patterns\Builder_HW\obj\Debug\net8.0\Builder_HW.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\Desktop\TOP\HW\Patterns\Builder_HW\obj\Debug\net8.0\Builder_HW.AssemblyInfoInputs.cache
+C:\Users\germa\Desktop\TOP\HW\Patterns\Builder_HW\obj\Debug\net8.0\Builder_HW.AssemblyInfo.cs
+C:\Users\germa\Desktop\TOP\HW\Patterns\Builder_HW\obj\Debug\net8.0\Builder_HW.csproj.CoreCompileInputs.cache
+C:\Users\germa\Desktop\TOP\HW\Patterns\Builder_HW\obj\Debug\net8.0\Builder_HW.sourcelink.json
+C:\Users\germa\Desktop\TOP\HW\Patterns\Builder_HW\obj\Debug\net8.0\Builder_HW.dll
+C:\Users\germa\Desktop\TOP\HW\Patterns\Builder_HW\obj\Debug\net8.0\refint\Builder_HW.dll
+C:\Users\germa\Desktop\TOP\HW\Patterns\Builder_HW\obj\Debug\net8.0\Builder_HW.pdb
+C:\Users\germa\Desktop\TOP\HW\Patterns\Builder_HW\obj\Debug\net8.0\Builder_HW.genruntimeconfig.cache
+C:\Users\germa\Desktop\TOP\HW\Patterns\Builder_HW\obj\Debug\net8.0\ref\Builder_HW.dll
