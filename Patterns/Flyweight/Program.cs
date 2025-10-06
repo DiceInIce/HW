@@ -89,9 +89,6 @@ namespace DocumentWorkflow
         }
     }
 
-    /// <summary>
-    /// Демонстрация работы
-    /// </summary>
     class Program
     {
         static void Main(string[] args)
@@ -117,7 +114,6 @@ namespace DocumentWorkflow
 
             var doc3 = new Document("003", DateTime.Now, "Акт выполненных работ", "Сидоров С.С.", metadata2);
 
-            // Вывод документов
             doc1.Display();
             doc2.Display();
             doc3.Display();
