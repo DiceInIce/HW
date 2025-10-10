@@ -22,8 +22,6 @@ public class NotificationManager
 
         Console.WriteLine("\n");
     }
-    // TODO: Хранить подписчиков и уведомлять их
-
 }
 
 // Главный класс для цен
