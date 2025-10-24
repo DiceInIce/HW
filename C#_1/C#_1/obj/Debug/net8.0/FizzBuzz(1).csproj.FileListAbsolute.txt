@@ -1,0 +1,15 @@
+C:\Users\germa\Desktop\TOP\HW\C#_1\C#_1\bin\Debug\net8.0\FizzBuzz(1).exe
+C:\Users\germa\Desktop\TOP\HW\C#_1\C#_1\bin\Debug\net8.0\FizzBuzz(1).deps.json
+C:\Users\germa\Desktop\TOP\HW\C#_1\C#_1\bin\Debug\net8.0\FizzBuzz(1).runtimeconfig.json
+C:\Users\germa\Desktop\TOP\HW\C#_1\C#_1\bin\Debug\net8.0\FizzBuzz(1).dll
+C:\Users\germa\Desktop\TOP\HW\C#_1\C#_1\bin\Debug\net8.0\FizzBuzz(1).pdb
+C:\Users\germa\Desktop\TOP\HW\C#_1\C#_1\obj\Debug\net8.0\FizzBuzz(1).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\Desktop\TOP\HW\C#_1\C#_1\obj\Debug\net8.0\FizzBuzz(1).AssemblyInfoInputs.cache
+C:\Users\germa\Desktop\TOP\HW\C#_1\C#_1\obj\Debug\net8.0\FizzBuzz(1).AssemblyInfo.cs
+C:\Users\germa\Desktop\TOP\HW\C#_1\C#_1\obj\Debug\net8.0\FizzBuzz(1).csproj.CoreCompileInputs.cache
+C:\Users\germa\Desktop\TOP\HW\C#_1\C#_1\obj\Debug\net8.0\FizzBuzz(1).sourcelink.json
+C:\Users\germa\Desktop\TOP\HW\C#_1\C#_1\obj\Debug\net8.0\FizzBuzz(1).dll
+C:\Users\germa\Desktop\TOP\HW\C#_1\C#_1\obj\Debug\net8.0\refint\FizzBuzz(1).dll
+C:\Users\germa\Desktop\TOP\HW\C#_1\C#_1\obj\Debug\net8.0\FizzBuzz(1).pdb
+C:\Users\germa\Desktop\TOP\HW\C#_1\C#_1\obj\Debug\net8.0\FizzBuzz(1).genruntimeconfig.cache
+C:\Users\germa\Desktop\TOP\HW\C#_1\C#_1\obj\Debug\net8.0\ref\FizzBuzz(1).dll

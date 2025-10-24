@@ -1,0 +1,15 @@
+C:\Users\germa\Desktop\TOP\HW\C#_1\Percents(2)\bin\Debug\net8.0\2_Percents.exe
+C:\Users\germa\Desktop\TOP\HW\C#_1\Percents(2)\bin\Debug\net8.0\2_Percents.deps.json
+C:\Users\germa\Desktop\TOP\HW\C#_1\Percents(2)\bin\Debug\net8.0\2_Percents.runtimeconfig.json
+C:\Users\germa\Desktop\TOP\HW\C#_1\Percents(2)\bin\Debug\net8.0\2_Percents.dll
+C:\Users\germa\Desktop\TOP\HW\C#_1\Percents(2)\bin\Debug\net8.0\2_Percents.pdb
+C:\Users\germa\Desktop\TOP\HW\C#_1\Percents(2)\obj\Debug\net8.0\2_Percents.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\Desktop\TOP\HW\C#_1\Percents(2)\obj\Debug\net8.0\2_Percents.AssemblyInfoInputs.cache
+C:\Users\germa\Desktop\TOP\HW\C#_1\Percents(2)\obj\Debug\net8.0\2_Percents.AssemblyInfo.cs
+C:\Users\germa\Desktop\TOP\HW\C#_1\Percents(2)\obj\Debug\net8.0\2_Percents.csproj.CoreCompileInputs.cache
+C:\Users\germa\Desktop\TOP\HW\C#_1\Percents(2)\obj\Debug\net8.0\2_Percents.sourcelink.json
+C:\Users\germa\Desktop\TOP\HW\C#_1\Percents(2)\obj\Debug\net8.0\2_Percents.dll
+C:\Users\germa\Desktop\TOP\HW\C#_1\Percents(2)\obj\Debug\net8.0\refint\2_Percents.dll
+C:\Users\germa\Desktop\TOP\HW\C#_1\Percents(2)\obj\Debug\net8.0\2_Percents.pdb
+C:\Users\germa\Desktop\TOP\HW\C#_1\Percents(2)\obj\Debug\net8.0\2_Percents.genruntimeconfig.cache
+C:\Users\germa\Desktop\TOP\HW\C#_1\Percents(2)\obj\Debug\net8.0\ref\2_Percents.dll

@@ -1,0 +1,15 @@
+C:\Users\germa\Desktop\TOP\HW\C#_1\4_SixDigitNum\bin\Debug\net8.0\4_SixDigitNum.exe
+C:\Users\germa\Desktop\TOP\HW\C#_1\4_SixDigitNum\bin\Debug\net8.0\4_SixDigitNum.deps.json
+C:\Users\germa\Desktop\TOP\HW\C#_1\4_SixDigitNum\bin\Debug\net8.0\4_SixDigitNum.runtimeconfig.json
+C:\Users\germa\Desktop\TOP\HW\C#_1\4_SixDigitNum\bin\Debug\net8.0\4_SixDigitNum.dll
+C:\Users\germa\Desktop\TOP\HW\C#_1\4_SixDigitNum\bin\Debug\net8.0\4_SixDigitNum.pdb
+C:\Users\germa\Desktop\TOP\HW\C#_1\4_SixDigitNum\obj\Debug\net8.0\4_SixDigitNum.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\Desktop\TOP\HW\C#_1\4_SixDigitNum\obj\Debug\net8.0\4_SixDigitNum.AssemblyInfoInputs.cache
+C:\Users\germa\Desktop\TOP\HW\C#_1\4_SixDigitNum\obj\Debug\net8.0\4_SixDigitNum.AssemblyInfo.cs
+C:\Users\germa\Desktop\TOP\HW\C#_1\4_SixDigitNum\obj\Debug\net8.0\4_SixDigitNum.csproj.CoreCompileInputs.cache
+C:\Users\germa\Desktop\TOP\HW\C#_1\4_SixDigitNum\obj\Debug\net8.0\4_SixDigitNum.sourcelink.json
+C:\Users\germa\Desktop\TOP\HW\C#_1\4_SixDigitNum\obj\Debug\net8.0\4_SixDigitNum.dll
+C:\Users\germa\Desktop\TOP\HW\C#_1\4_SixDigitNum\obj\Debug\net8.0\refint\4_SixDigitNum.dll
+C:\Users\germa\Desktop\TOP\HW\C#_1\4_SixDigitNum\obj\Debug\net8.0\4_SixDigitNum.pdb
+C:\Users\germa\Desktop\TOP\HW\C#_1\4_SixDigitNum\obj\Debug\net8.0\4_SixDigitNum.genruntimeconfig.cache
+C:\Users\germa\Desktop\TOP\HW\C#_1\4_SixDigitNum\obj\Debug\net8.0\ref\4_SixDigitNum.dll

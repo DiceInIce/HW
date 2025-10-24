@@ -1,0 +1,15 @@
+C:\Users\germa\Desktop\TOP\HW\C#_1\6_Temperature\bin\Debug\net8.0\6_Temperature.exe
+C:\Users\germa\Desktop\TOP\HW\C#_1\6_Temperature\bin\Debug\net8.0\6_Temperature.deps.json
+C:\Users\germa\Desktop\TOP\HW\C#_1\6_Temperature\bin\Debug\net8.0\6_Temperature.runtimeconfig.json
+C:\Users\germa\Desktop\TOP\HW\C#_1\6_Temperature\bin\Debug\net8.0\6_Temperature.dll
+C:\Users\germa\Desktop\TOP\HW\C#_1\6_Temperature\bin\Debug\net8.0\6_Temperature.pdb
+C:\Users\germa\Desktop\TOP\HW\C#_1\6_Temperature\obj\Debug\net8.0\6_Temperature.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\Desktop\TOP\HW\C#_1\6_Temperature\obj\Debug\net8.0\6_Temperature.AssemblyInfoInputs.cache
+C:\Users\germa\Desktop\TOP\HW\C#_1\6_Temperature\obj\Debug\net8.0\6_Temperature.AssemblyInfo.cs
+C:\Users\germa\Desktop\TOP\HW\C#_1\6_Temperature\obj\Debug\net8.0\6_Temperature.csproj.CoreCompileInputs.cache
+C:\Users\germa\Desktop\TOP\HW\C#_1\6_Temperature\obj\Debug\net8.0\6_Temperature.sourcelink.json
+C:\Users\germa\Desktop\TOP\HW\C#_1\6_Temperature\obj\Debug\net8.0\6_Temperature.dll
+C:\Users\germa\Desktop\TOP\HW\C#_1\6_Temperature\obj\Debug\net8.0\refint\6_Temperature.dll
+C:\Users\germa\Desktop\TOP\HW\C#_1\6_Temperature\obj\Debug\net8.0\6_Temperature.pdb
+C:\Users\germa\Desktop\TOP\HW\C#_1\6_Temperature\obj\Debug\net8.0\6_Temperature.genruntimeconfig.cache
+C:\Users\germa\Desktop\TOP\HW\C#_1\6_Temperature\obj\Debug\net8.0\ref\6_Temperature.dll

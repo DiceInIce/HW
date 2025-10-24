@@ -1,0 +1,15 @@
+C:\Users\germa\Desktop\TOP\HW\C#_1\7_OddNums\bin\Debug\net8.0\7_OddNums.exe
+C:\Users\germa\Desktop\TOP\HW\C#_1\7_OddNums\bin\Debug\net8.0\7_OddNums.deps.json
+C:\Users\germa\Desktop\TOP\HW\C#_1\7_OddNums\bin\Debug\net8.0\7_OddNums.runtimeconfig.json
+C:\Users\germa\Desktop\TOP\HW\C#_1\7_OddNums\bin\Debug\net8.0\7_OddNums.dll
+C:\Users\germa\Desktop\TOP\HW\C#_1\7_OddNums\bin\Debug\net8.0\7_OddNums.pdb
+C:\Users\germa\Desktop\TOP\HW\C#_1\7_OddNums\obj\Debug\net8.0\7_OddNums.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\Desktop\TOP\HW\C#_1\7_OddNums\obj\Debug\net8.0\7_OddNums.AssemblyInfoInputs.cache
+C:\Users\germa\Desktop\TOP\HW\C#_1\7_OddNums\obj\Debug\net8.0\7_OddNums.AssemblyInfo.cs
+C:\Users\germa\Desktop\TOP\HW\C#_1\7_OddNums\obj\Debug\net8.0\7_OddNums.csproj.CoreCompileInputs.cache
+C:\Users\germa\Desktop\TOP\HW\C#_1\7_OddNums\obj\Debug\net8.0\7_OddNums.sourcelink.json
+C:\Users\germa\Desktop\TOP\HW\C#_1\7_OddNums\obj\Debug\net8.0\7_OddNums.dll
+C:\Users\germa\Desktop\TOP\HW\C#_1\7_OddNums\obj\Debug\net8.0\refint\7_OddNums.dll
+C:\Users\germa\Desktop\TOP\HW\C#_1\7_OddNums\obj\Debug\net8.0\7_OddNums.pdb
+C:\Users\germa\Desktop\TOP\HW\C#_1\7_OddNums\obj\Debug\net8.0\7_OddNums.genruntimeconfig.cache
+C:\Users\germa\Desktop\TOP\HW\C#_1\7_OddNums\obj\Debug\net8.0\ref\7_OddNums.dll

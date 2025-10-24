@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\germa\\Desktop\\TOP\\HW\\C#_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8CDE1BE7-D693-4F06-8A92-81FBAFE0B5FA}|7_OddNums\\7_OddNums.csproj|c:\\users\\germa\\desktop\\top\\hw\\c#_1\\7_oddnums\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8CDE1BE7-D693-4F06-8A92-81FBAFE0B5FA}|7_OddNums\\7_OddNums.csproj|solutionrelative:7_oddnums\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A49B7CD-07F4-4EF2-AB0C-DC2622ECB4D3}|5_Calendar\\5_Calendar.csproj|c:\\users\\germa\\desktop\\top\\hw\\c#_1\\5_calendar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A49B7CD-07F4-4EF2-AB0C-DC2622ECB4D3}|5_Calendar\\5_Calendar.csproj|solutionrelative:5_calendar\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{490CEE03-E6DA-4D81-BDAB-AEB42DBD7B6F}|4_SixDigitNum\\4_SixDigitNum.csproj|c:\\users\\germa\\desktop\\top\\hw\\c#_1\\4_sixdigitnum\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{490CEE03-E6DA-4D81-BDAB-AEB42DBD7B6F}|4_SixDigitNum\\4_SixDigitNum.csproj|solutionrelative:4_sixdigitnum\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AD07B24F-B117-4883-9A54-932DC1A98CFB}|NumberForm(3)\\NumberForm(3).csproj|c:\\users\\germa\\desktop\\top\\hw\\c#_1\\numberform(3)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AD07B24F-B117-4883-9A54-932DC1A98CFB}|NumberForm(3)\\NumberForm(3).csproj|solutionrelative:numberform(3)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA8042CC-BFBB-4291-ADB8-C091A75A2997}|6_Temperature\\6_Temperature.csproj|c:\\users\\germa\\desktop\\top\\hw\\c#_1\\6_temperature\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA8042CC-BFBB-4291-ADB8-C091A75A2997}|6_Temperature\\6_Temperature.csproj|solutionrelative:6_temperature\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{77E0B2A8-B333-475B-BFF8-F6602C5E0131}|Percents(2)\\Percents(2).csproj|c:\\users\\germa\\desktop\\top\\hw\\c#_1\\percents(2)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{77E0B2A8-B333-475B-BFF8-F6602C5E0131}|Percents(2)\\Percents(2).csproj|solutionrelative:percents(2)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{589D901A-2BA7-401A-8196-D6B9FF286B8C}|C#_1\\C#_1.csproj|c:\\users\\germa\\desktop\\top\\hw\\c#_1\\c#_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{589D901A-2BA7-401A-8196-D6B9FF286B8C}|C#_1\\C#_1.csproj|solutionrelative:c#_1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\C#_1\\7_OddNums\\Program.cs",
+              "RelativeDocumentMoniker": "7_OddNums\\Program.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\C#_1\\7_OddNums\\Program.cs",
+              "RelativeToolTip": "7_OddNums\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T12:19:37.863Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\C#_1\\6_Temperature\\Program.cs",
+              "RelativeDocumentMoniker": "6_Temperature\\Program.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\C#_1\\6_Temperature\\Program.cs",
+              "RelativeToolTip": "6_Temperature\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T12:18:45.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\C#_1\\5_Calendar\\Program.cs",
+              "RelativeDocumentMoniker": "5_Calendar\\Program.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\C#_1\\5_Calendar\\Program.cs",
+              "RelativeToolTip": "5_Calendar\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T12:18:23.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\C#_1\\4_SixDigitNum\\Program.cs",
+              "RelativeDocumentMoniker": "4_SixDigitNum\\Program.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\C#_1\\4_SixDigitNum\\Program.cs",
+              "RelativeToolTip": "4_SixDigitNum\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T12:17:25.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\C#_1\\NumberForm(3)\\Program.cs",
+              "RelativeDocumentMoniker": "NumberForm(3)\\Program.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\C#_1\\NumberForm(3)\\Program.cs",
+              "RelativeToolTip": "NumberForm(3)\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T12:16:01.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\C#_1\\Percents(2)\\Program.cs",
+              "RelativeDocumentMoniker": "Percents(2)\\Program.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\C#_1\\Percents(2)\\Program.cs",
+              "RelativeToolTip": "Percents(2)\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T12:15:09.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\C#_1\\C#_1\\Program.cs",
+              "RelativeDocumentMoniker": "C#_1\\Program.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\C#_1\\C#_1\\Program.cs",
+              "RelativeToolTip": "C#_1\\Program.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T12:11:09.168Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

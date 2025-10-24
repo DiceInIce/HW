@@ -1,0 +1,15 @@
+C:\Users\germa\Desktop\TOP\HW\C#_1\5_Calendar\bin\Debug\net8.0\5_Calendar.exe
+C:\Users\germa\Desktop\TOP\HW\C#_1\5_Calendar\bin\Debug\net8.0\5_Calendar.deps.json
+C:\Users\germa\Desktop\TOP\HW\C#_1\5_Calendar\bin\Debug\net8.0\5_Calendar.runtimeconfig.json
+C:\Users\germa\Desktop\TOP\HW\C#_1\5_Calendar\bin\Debug\net8.0\5_Calendar.dll
+C:\Users\germa\Desktop\TOP\HW\C#_1\5_Calendar\bin\Debug\net8.0\5_Calendar.pdb
+C:\Users\germa\Desktop\TOP\HW\C#_1\5_Calendar\obj\Debug\net8.0\5_Calendar.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\Desktop\TOP\HW\C#_1\5_Calendar\obj\Debug\net8.0\5_Calendar.AssemblyInfoInputs.cache
+C:\Users\germa\Desktop\TOP\HW\C#_1\5_Calendar\obj\Debug\net8.0\5_Calendar.AssemblyInfo.cs
+C:\Users\germa\Desktop\TOP\HW\C#_1\5_Calendar\obj\Debug\net8.0\5_Calendar.csproj.CoreCompileInputs.cache
+C:\Users\germa\Desktop\TOP\HW\C#_1\5_Calendar\obj\Debug\net8.0\5_Calendar.sourcelink.json
+C:\Users\germa\Desktop\TOP\HW\C#_1\5_Calendar\obj\Debug\net8.0\5_Calendar.dll
+C:\Users\germa\Desktop\TOP\HW\C#_1\5_Calendar\obj\Debug\net8.0\refint\5_Calendar.dll
+C:\Users\germa\Desktop\TOP\HW\C#_1\5_Calendar\obj\Debug\net8.0\5_Calendar.pdb
+C:\Users\germa\Desktop\TOP\HW\C#_1\5_Calendar\obj\Debug\net8.0\5_Calendar.genruntimeconfig.cache
+C:\Users\germa\Desktop\TOP\HW\C#_1\5_Calendar\obj\Debug\net8.0\ref\5_Calendar.dll

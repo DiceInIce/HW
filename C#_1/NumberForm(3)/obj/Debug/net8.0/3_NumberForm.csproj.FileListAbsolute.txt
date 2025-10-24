@@ -1,0 +1,15 @@
+C:\Users\germa\Desktop\TOP\HW\C#_1\NumberForm(3)\bin\Debug\net8.0\3_NumberForm.exe
+C:\Users\germa\Desktop\TOP\HW\C#_1\NumberForm(3)\bin\Debug\net8.0\3_NumberForm.deps.json
+C:\Users\germa\Desktop\TOP\HW\C#_1\NumberForm(3)\bin\Debug\net8.0\3_NumberForm.runtimeconfig.json
+C:\Users\germa\Desktop\TOP\HW\C#_1\NumberForm(3)\bin\Debug\net8.0\3_NumberForm.dll
+C:\Users\germa\Desktop\TOP\HW\C#_1\NumberForm(3)\bin\Debug\net8.0\3_NumberForm.pdb
+C:\Users\germa\Desktop\TOP\HW\C#_1\NumberForm(3)\obj\Debug\net8.0\3_NumberForm.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\Desktop\TOP\HW\C#_1\NumberForm(3)\obj\Debug\net8.0\3_NumberForm.AssemblyInfoInputs.cache
+C:\Users\germa\Desktop\TOP\HW\C#_1\NumberForm(3)\obj\Debug\net8.0\3_NumberForm.AssemblyInfo.cs
+C:\Users\germa\Desktop\TOP\HW\C#_1\NumberForm(3)\obj\Debug\net8.0\3_NumberForm.csproj.CoreCompileInputs.cache
+C:\Users\germa\Desktop\TOP\HW\C#_1\NumberForm(3)\obj\Debug\net8.0\3_NumberForm.sourcelink.json
+C:\Users\germa\Desktop\TOP\HW\C#_1\NumberForm(3)\obj\Debug\net8.0\3_NumberForm.dll
+C:\Users\germa\Desktop\TOP\HW\C#_1\NumberForm(3)\obj\Debug\net8.0\refint\3_NumberForm.dll
+C:\Users\germa\Desktop\TOP\HW\C#_1\NumberForm(3)\obj\Debug\net8.0\3_NumberForm.pdb
+C:\Users\germa\Desktop\TOP\HW\C#_1\NumberForm(3)\obj\Debug\net8.0\3_NumberForm.genruntimeconfig.cache
+C:\Users\germa\Desktop\TOP\HW\C#_1\NumberForm(3)\obj\Debug\net8.0\ref\3_NumberForm.dll
