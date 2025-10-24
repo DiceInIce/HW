@@ -1,0 +1,15 @@
+C:\Users\germa\Desktop\TOP\HW\С#_NamespacesHW\С#_NamespacesHW\bin\Debug\net8.0\С#_NamespacesHW.exe
+C:\Users\germa\Desktop\TOP\HW\С#_NamespacesHW\С#_NamespacesHW\bin\Debug\net8.0\С#_NamespacesHW.deps.json
+C:\Users\germa\Desktop\TOP\HW\С#_NamespacesHW\С#_NamespacesHW\bin\Debug\net8.0\С#_NamespacesHW.runtimeconfig.json
+C:\Users\germa\Desktop\TOP\HW\С#_NamespacesHW\С#_NamespacesHW\bin\Debug\net8.0\С#_NamespacesHW.dll
+C:\Users\germa\Desktop\TOP\HW\С#_NamespacesHW\С#_NamespacesHW\bin\Debug\net8.0\С#_NamespacesHW.pdb
+C:\Users\germa\Desktop\TOP\HW\С#_NamespacesHW\С#_NamespacesHW\obj\Debug\net8.0\С#_NamespacesHW.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\Desktop\TOP\HW\С#_NamespacesHW\С#_NamespacesHW\obj\Debug\net8.0\С#_NamespacesHW.AssemblyInfoInputs.cache
+C:\Users\germa\Desktop\TOP\HW\С#_NamespacesHW\С#_NamespacesHW\obj\Debug\net8.0\С#_NamespacesHW.AssemblyInfo.cs
+C:\Users\germa\Desktop\TOP\HW\С#_NamespacesHW\С#_NamespacesHW\obj\Debug\net8.0\С#_NamespacesHW.csproj.CoreCompileInputs.cache
+C:\Users\germa\Desktop\TOP\HW\С#_NamespacesHW\С#_NamespacesHW\obj\Debug\net8.0\С#_NamespacesHW.sourcelink.json
+C:\Users\germa\Desktop\TOP\HW\С#_NamespacesHW\С#_NamespacesHW\obj\Debug\net8.0\С#_NamespacesHW.dll
+C:\Users\germa\Desktop\TOP\HW\С#_NamespacesHW\С#_NamespacesHW\obj\Debug\net8.0\refint\С#_NamespacesHW.dll
+C:\Users\germa\Desktop\TOP\HW\С#_NamespacesHW\С#_NamespacesHW\obj\Debug\net8.0\С#_NamespacesHW.pdb
+C:\Users\germa\Desktop\TOP\HW\С#_NamespacesHW\С#_NamespacesHW\obj\Debug\net8.0\С#_NamespacesHW.genruntimeconfig.cache
+C:\Users\germa\Desktop\TOP\HW\С#_NamespacesHW\С#_NamespacesHW\obj\Debug\net8.0\ref\С#_NamespacesHW.dll

@@ -1,0 +1,15 @@
+C:\Users\germa\Desktop\TOP\HW\C#_4\4.1\bin\Debug\net8.0\4.1&2.exe
+C:\Users\germa\Desktop\TOP\HW\C#_4\4.1\bin\Debug\net8.0\4.1&2.deps.json
+C:\Users\germa\Desktop\TOP\HW\C#_4\4.1\bin\Debug\net8.0\4.1&2.runtimeconfig.json
+C:\Users\germa\Desktop\TOP\HW\C#_4\4.1\bin\Debug\net8.0\4.1&2.dll
+C:\Users\germa\Desktop\TOP\HW\C#_4\4.1\bin\Debug\net8.0\4.1&2.pdb
+C:\Users\germa\Desktop\TOP\HW\C#_4\4.1\obj\Debug\net8.0\4.1&2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\Desktop\TOP\HW\C#_4\4.1\obj\Debug\net8.0\4.1&2.AssemblyInfoInputs.cache
+C:\Users\germa\Desktop\TOP\HW\C#_4\4.1\obj\Debug\net8.0\4.1&2.AssemblyInfo.cs
+C:\Users\germa\Desktop\TOP\HW\C#_4\4.1\obj\Debug\net8.0\4.1&2.csproj.CoreCompileInputs.cache
+C:\Users\germa\Desktop\TOP\HW\C#_4\4.1\obj\Debug\net8.0\4.1&2.sourcelink.json
+C:\Users\germa\Desktop\TOP\HW\C#_4\4.1\obj\Debug\net8.0\4.1&2.dll
+C:\Users\germa\Desktop\TOP\HW\C#_4\4.1\obj\Debug\net8.0\refint\4.1&2.dll
+C:\Users\germa\Desktop\TOP\HW\C#_4\4.1\obj\Debug\net8.0\4.1&2.pdb
+C:\Users\germa\Desktop\TOP\HW\C#_4\4.1\obj\Debug\net8.0\4.1&2.genruntimeconfig.cache
+C:\Users\germa\Desktop\TOP\HW\C#_4\4.1\obj\Debug\net8.0\ref\4.1&2.dll

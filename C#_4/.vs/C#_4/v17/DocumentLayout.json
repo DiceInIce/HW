@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\germa\\Desktop\\TOP\\HW\\C#_4\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A642CFB0-7A21-42E6-89B9-1E260CD0FC78}|4.1\\4.1\u00262.csproj|c:\\users\\germa\\desktop\\top\\hw\\c#_4\\4.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A642CFB0-7A21-42E6-89B9-1E260CD0FC78}|4.1\\4.1\u00262.csproj|solutionrelative:4.1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{82EA8CB9-2B4F-4BCE-9E66-1F554751432B}|4.3\u00264\\4.3\u00264.csproj|c:\\users\\germa\\desktop\\top\\hw\\c#_4\\4.3\u00264\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{82EA8CB9-2B4F-4BCE-9E66-1F554751432B}|4.3\u00264\\4.3\u00264.csproj|solutionrelative:4.3\u00264\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\C#_4\\4.3\u00264\\Program.cs",
+              "RelativeDocumentMoniker": "4.3\u00264\\Program.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\C#_4\\4.3\u00264\\Program.cs",
+              "RelativeToolTip": "4.3\u00264\\Program.cs",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAwwHQAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T12:56:58.817Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\C#_4\\4.1\\Program.cs",
+              "RelativeDocumentMoniker": "4.1\\Program.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\C#_4\\4.1\\Program.cs",
+              "RelativeToolTip": "4.1\\Program.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAuwJMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T12:56:14.477Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
