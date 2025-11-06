@@ -1,0 +1,15 @@
+C:\Users\germa\Desktop\TOP\HW\6\6.4\bin\Debug\net8.0\6.4.exe
+C:\Users\germa\Desktop\TOP\HW\6\6.4\bin\Debug\net8.0\6.4.deps.json
+C:\Users\germa\Desktop\TOP\HW\6\6.4\bin\Debug\net8.0\6.4.runtimeconfig.json
+C:\Users\germa\Desktop\TOP\HW\6\6.4\bin\Debug\net8.0\6.4.dll
+C:\Users\germa\Desktop\TOP\HW\6\6.4\bin\Debug\net8.0\6.4.pdb
+C:\Users\germa\Desktop\TOP\HW\6\6.4\obj\Debug\net8.0\6.4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\Desktop\TOP\HW\6\6.4\obj\Debug\net8.0\6.4.AssemblyInfoInputs.cache
+C:\Users\germa\Desktop\TOP\HW\6\6.4\obj\Debug\net8.0\6.4.AssemblyInfo.cs
+C:\Users\germa\Desktop\TOP\HW\6\6.4\obj\Debug\net8.0\6.4.csproj.CoreCompileInputs.cache
+C:\Users\germa\Desktop\TOP\HW\6\6.4\obj\Debug\net8.0\6.4.sourcelink.json
+C:\Users\germa\Desktop\TOP\HW\6\6.4\obj\Debug\net8.0\6.4.dll
+C:\Users\germa\Desktop\TOP\HW\6\6.4\obj\Debug\net8.0\refint\6.4.dll
+C:\Users\germa\Desktop\TOP\HW\6\6.4\obj\Debug\net8.0\6.4.pdb
+C:\Users\germa\Desktop\TOP\HW\6\6.4\obj\Debug\net8.0\6.4.genruntimeconfig.cache
+C:\Users\germa\Desktop\TOP\HW\6\6.4\obj\Debug\net8.0\ref\6.4.dll
