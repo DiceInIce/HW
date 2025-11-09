@@ -1,0 +1,15 @@
+C:\Users\germa\Desktop\TOP\HW\HouseBuilder (C#_6.2)\HouseBuilder\bin\Debug\net8.0\HouseBuilder.exe
+C:\Users\germa\Desktop\TOP\HW\HouseBuilder (C#_6.2)\HouseBuilder\bin\Debug\net8.0\HouseBuilder.deps.json
+C:\Users\germa\Desktop\TOP\HW\HouseBuilder (C#_6.2)\HouseBuilder\bin\Debug\net8.0\HouseBuilder.runtimeconfig.json
+C:\Users\germa\Desktop\TOP\HW\HouseBuilder (C#_6.2)\HouseBuilder\bin\Debug\net8.0\HouseBuilder.dll
+C:\Users\germa\Desktop\TOP\HW\HouseBuilder (C#_6.2)\HouseBuilder\bin\Debug\net8.0\HouseBuilder.pdb
+C:\Users\germa\Desktop\TOP\HW\HouseBuilder (C#_6.2)\HouseBuilder\obj\Debug\net8.0\HouseBuilder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\Desktop\TOP\HW\HouseBuilder (C#_6.2)\HouseBuilder\obj\Debug\net8.0\HouseBuilder.AssemblyInfoInputs.cache
+C:\Users\germa\Desktop\TOP\HW\HouseBuilder (C#_6.2)\HouseBuilder\obj\Debug\net8.0\HouseBuilder.AssemblyInfo.cs
+C:\Users\germa\Desktop\TOP\HW\HouseBuilder (C#_6.2)\HouseBuilder\obj\Debug\net8.0\HouseBuilder.csproj.CoreCompileInputs.cache
+C:\Users\germa\Desktop\TOP\HW\HouseBuilder (C#_6.2)\HouseBuilder\obj\Debug\net8.0\HouseBuilder.sourcelink.json
+C:\Users\germa\Desktop\TOP\HW\HouseBuilder (C#_6.2)\HouseBuilder\obj\Debug\net8.0\HouseBuilder.dll
+C:\Users\germa\Desktop\TOP\HW\HouseBuilder (C#_6.2)\HouseBuilder\obj\Debug\net8.0\refint\HouseBuilder.dll
+C:\Users\germa\Desktop\TOP\HW\HouseBuilder (C#_6.2)\HouseBuilder\obj\Debug\net8.0\HouseBuilder.pdb
+C:\Users\germa\Desktop\TOP\HW\HouseBuilder (C#_6.2)\HouseBuilder\obj\Debug\net8.0\HouseBuilder.genruntimeconfig.cache
+C:\Users\germa\Desktop\TOP\HW\HouseBuilder (C#_6.2)\HouseBuilder\obj\Debug\net8.0\ref\HouseBuilder.dll

@@ -1,0 +1,245 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\germa\\Desktop\\TOP\\HW\\HouseBuilder (C#_6.2)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7B4AE1F8-44DF-45A7-AD45-C62D5F91F218}|HouseBuilder\\HouseBuilder.csproj|c:\\users\\germa\\desktop\\top\\hw\\housebuilder (c#_6.2)\\housebuilder\\interfaces\\iworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B4AE1F8-44DF-45A7-AD45-C62D5F91F218}|HouseBuilder\\HouseBuilder.csproj|solutionrelative:housebuilder\\interfaces\\iworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B4AE1F8-44DF-45A7-AD45-C62D5F91F218}|HouseBuilder\\HouseBuilder.csproj|c:\\users\\germa\\desktop\\top\\hw\\housebuilder (c#_6.2)\\housebuilder\\interfaces\\ipart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B4AE1F8-44DF-45A7-AD45-C62D5F91F218}|HouseBuilder\\HouseBuilder.csproj|solutionrelative:housebuilder\\interfaces\\ipart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B4AE1F8-44DF-45A7-AD45-C62D5F91F218}|HouseBuilder\\HouseBuilder.csproj|c:\\users\\germa\\desktop\\top\\hw\\housebuilder (c#_6.2)\\housebuilder\\workers\\workers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B4AE1F8-44DF-45A7-AD45-C62D5F91F218}|HouseBuilder\\HouseBuilder.csproj|solutionrelative:housebuilder\\workers\\workers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B4AE1F8-44DF-45A7-AD45-C62D5F91F218}|HouseBuilder\\HouseBuilder.csproj|c:\\users\\germa\\desktop\\top\\hw\\housebuilder (c#_6.2)\\housebuilder\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B4AE1F8-44DF-45A7-AD45-C62D5F91F218}|HouseBuilder\\HouseBuilder.csproj|solutionrelative:housebuilder\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B4AE1F8-44DF-45A7-AD45-C62D5F91F218}|HouseBuilder\\HouseBuilder.csproj|c:\\users\\germa\\desktop\\top\\hw\\housebuilder (c#_6.2)\\housebuilder\\models\\house.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B4AE1F8-44DF-45A7-AD45-C62D5F91F218}|HouseBuilder\\HouseBuilder.csproj|solutionrelative:housebuilder\\models\\house.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B4AE1F8-44DF-45A7-AD45-C62D5F91F218}|HouseBuilder\\HouseBuilder.csproj|c:\\users\\germa\\desktop\\top\\hw\\housebuilder (c#_6.2)\\housebuilder\\workers\\teamleader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B4AE1F8-44DF-45A7-AD45-C62D5F91F218}|HouseBuilder\\HouseBuilder.csproj|solutionrelative:housebuilder\\workers\\teamleader.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B4AE1F8-44DF-45A7-AD45-C62D5F91F218}|HouseBuilder\\HouseBuilder.csproj|c:\\users\\germa\\desktop\\top\\hw\\housebuilder (c#_6.2)\\housebuilder\\team\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B4AE1F8-44DF-45A7-AD45-C62D5F91F218}|HouseBuilder\\HouseBuilder.csproj|solutionrelative:housebuilder\\team\\team.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B4AE1F8-44DF-45A7-AD45-C62D5F91F218}|HouseBuilder\\HouseBuilder.csproj|c:\\users\\germa\\desktop\\top\\hw\\housebuilder (c#_6.2)\\housebuilder\\models\\constructionstage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B4AE1F8-44DF-45A7-AD45-C62D5F91F218}|HouseBuilder\\HouseBuilder.csproj|solutionrelative:housebuilder\\models\\constructionstage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B4AE1F8-44DF-45A7-AD45-C62D5F91F218}|HouseBuilder\\HouseBuilder.csproj|c:\\users\\germa\\desktop\\top\\hw\\housebuilder (c#_6.2)\\housebuilder\\parts\\walls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B4AE1F8-44DF-45A7-AD45-C62D5F91F218}|HouseBuilder\\HouseBuilder.csproj|solutionrelative:housebuilder\\parts\\walls.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B4AE1F8-44DF-45A7-AD45-C62D5F91F218}|HouseBuilder\\HouseBuilder.csproj|c:\\users\\germa\\desktop\\top\\hw\\housebuilder (c#_6.2)\\housebuilder\\parts\\window.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B4AE1F8-44DF-45A7-AD45-C62D5F91F218}|HouseBuilder\\HouseBuilder.csproj|solutionrelative:housebuilder\\parts\\window.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B4AE1F8-44DF-45A7-AD45-C62D5F91F218}|HouseBuilder\\HouseBuilder.csproj|c:\\users\\germa\\desktop\\top\\hw\\housebuilder (c#_6.2)\\housebuilder\\parts\\roof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B4AE1F8-44DF-45A7-AD45-C62D5F91F218}|HouseBuilder\\HouseBuilder.csproj|solutionrelative:housebuilder\\parts\\roof.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B4AE1F8-44DF-45A7-AD45-C62D5F91F218}|HouseBuilder\\HouseBuilder.csproj|c:\\users\\germa\\desktop\\top\\hw\\housebuilder (c#_6.2)\\housebuilder\\parts\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B4AE1F8-44DF-45A7-AD45-C62D5F91F218}|HouseBuilder\\HouseBuilder.csproj|solutionrelative:housebuilder\\parts\\door.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7B4AE1F8-44DF-45A7-AD45-C62D5F91F218}|HouseBuilder\\HouseBuilder.csproj|c:\\users\\germa\\desktop\\top\\hw\\housebuilder (c#_6.2)\\housebuilder\\parts\\basement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7B4AE1F8-44DF-45A7-AD45-C62D5F91F218}|HouseBuilder\\HouseBuilder.csproj|solutionrelative:housebuilder\\parts\\basement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 12,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ConstructionStage.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\HouseBuilder (C#_6.2)\\HouseBuilder\\Models\\ConstructionStage.cs",
+              "RelativeDocumentMoniker": "HouseBuilder\\Models\\ConstructionStage.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\HouseBuilder (C#_6.2)\\HouseBuilder\\Models\\ConstructionStage.cs",
+              "RelativeToolTip": "HouseBuilder\\Models\\ConstructionStage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T10:05:01.457Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "House.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\HouseBuilder (C#_6.2)\\HouseBuilder\\Models\\House.cs",
+              "RelativeDocumentMoniker": "HouseBuilder\\Models\\House.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\HouseBuilder (C#_6.2)\\HouseBuilder\\Models\\House.cs",
+              "RelativeToolTip": "HouseBuilder\\Models\\House.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowCgAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T09:57:32.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "TeamLeader.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\HouseBuilder (C#_6.2)\\HouseBuilder\\Workers\\TeamLeader.cs",
+              "RelativeDocumentMoniker": "HouseBuilder\\Workers\\TeamLeader.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\HouseBuilder (C#_6.2)\\HouseBuilder\\Workers\\TeamLeader.cs",
+              "RelativeToolTip": "HouseBuilder\\Workers\\TeamLeader.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T09:54:47.04Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Workers.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\HouseBuilder (C#_6.2)\\HouseBuilder\\Workers\\Workers.cs",
+              "RelativeDocumentMoniker": "HouseBuilder\\Workers\\Workers.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\HouseBuilder (C#_6.2)\\HouseBuilder\\Workers\\Workers.cs",
+              "RelativeToolTip": "HouseBuilder\\Workers\\Workers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T09:54:33.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Team.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\HouseBuilder (C#_6.2)\\HouseBuilder\\Team\\Team.cs",
+              "RelativeDocumentMoniker": "HouseBuilder\\Team\\Team.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\HouseBuilder (C#_6.2)\\HouseBuilder\\Team\\Team.cs",
+              "RelativeToolTip": "HouseBuilder\\Team\\Team.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T09:54:26.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Roof.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\HouseBuilder (C#_6.2)\\HouseBuilder\\Parts\\Roof.cs",
+              "RelativeDocumentMoniker": "HouseBuilder\\Parts\\Roof.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\HouseBuilder (C#_6.2)\\HouseBuilder\\Parts\\Roof.cs",
+              "RelativeToolTip": "HouseBuilder\\Parts\\Roof.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T09:54:18.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Window.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\HouseBuilder (C#_6.2)\\HouseBuilder\\Parts\\Window.cs",
+              "RelativeDocumentMoniker": "HouseBuilder\\Parts\\Window.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\HouseBuilder (C#_6.2)\\HouseBuilder\\Parts\\Window.cs",
+              "RelativeToolTip": "HouseBuilder\\Parts\\Window.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T09:54:13.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Door.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\HouseBuilder (C#_6.2)\\HouseBuilder\\Parts\\Door.cs",
+              "RelativeDocumentMoniker": "HouseBuilder\\Parts\\Door.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\HouseBuilder (C#_6.2)\\HouseBuilder\\Parts\\Door.cs",
+              "RelativeToolTip": "HouseBuilder\\Parts\\Door.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T09:54:10.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Walls.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\HouseBuilder (C#_6.2)\\HouseBuilder\\Parts\\Walls.cs",
+              "RelativeDocumentMoniker": "HouseBuilder\\Parts\\Walls.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\HouseBuilder (C#_6.2)\\HouseBuilder\\Parts\\Walls.cs",
+              "RelativeToolTip": "HouseBuilder\\Parts\\Walls.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T09:54:06.209Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Basement.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\HouseBuilder (C#_6.2)\\HouseBuilder\\Parts\\Basement.cs",
+              "RelativeDocumentMoniker": "HouseBuilder\\Parts\\Basement.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\HouseBuilder (C#_6.2)\\HouseBuilder\\Parts\\Basement.cs",
+              "RelativeToolTip": "HouseBuilder\\Parts\\Basement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T09:53:46.784Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IPart.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\HouseBuilder (C#_6.2)\\HouseBuilder\\Interfaces\\IPart.cs",
+              "RelativeDocumentMoniker": "HouseBuilder\\Interfaces\\IPart.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\HouseBuilder (C#_6.2)\\HouseBuilder\\Interfaces\\IPart.cs",
+              "RelativeToolTip": "HouseBuilder\\Interfaces\\IPart.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T09:53:39.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IWorker.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\HouseBuilder (C#_6.2)\\HouseBuilder\\Interfaces\\IWorker.cs",
+              "RelativeDocumentMoniker": "HouseBuilder\\Interfaces\\IWorker.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\HouseBuilder (C#_6.2)\\HouseBuilder\\Interfaces\\IWorker.cs",
+              "RelativeToolTip": "HouseBuilder\\Interfaces\\IWorker.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T09:53:29.288Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\HouseBuilder (C#_6.2)\\HouseBuilder\\Program.cs",
+              "RelativeDocumentMoniker": "HouseBuilder\\Program.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\HouseBuilder (C#_6.2)\\HouseBuilder\\Program.cs",
+              "RelativeToolTip": "HouseBuilder\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-09T09:41:38.388Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
