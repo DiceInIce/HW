@@ -1,0 +1,15 @@
+C:\Users\germa\Desktop\TOP\HW\Warehouse_C#\Warehouse_C#\bin\Debug\net8.0\Warehouse_C#.exe
+C:\Users\germa\Desktop\TOP\HW\Warehouse_C#\Warehouse_C#\bin\Debug\net8.0\Warehouse_C#.deps.json
+C:\Users\germa\Desktop\TOP\HW\Warehouse_C#\Warehouse_C#\bin\Debug\net8.0\Warehouse_C#.runtimeconfig.json
+C:\Users\germa\Desktop\TOP\HW\Warehouse_C#\Warehouse_C#\bin\Debug\net8.0\Warehouse_C#.dll
+C:\Users\germa\Desktop\TOP\HW\Warehouse_C#\Warehouse_C#\bin\Debug\net8.0\Warehouse_C#.pdb
+C:\Users\germa\Desktop\TOP\HW\Warehouse_C#\Warehouse_C#\obj\Debug\net8.0\Warehouse_C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\Desktop\TOP\HW\Warehouse_C#\Warehouse_C#\obj\Debug\net8.0\Warehouse_C#.AssemblyInfoInputs.cache
+C:\Users\germa\Desktop\TOP\HW\Warehouse_C#\Warehouse_C#\obj\Debug\net8.0\Warehouse_C#.AssemblyInfo.cs
+C:\Users\germa\Desktop\TOP\HW\Warehouse_C#\Warehouse_C#\obj\Debug\net8.0\Warehouse_C#.csproj.CoreCompileInputs.cache
+C:\Users\germa\Desktop\TOP\HW\Warehouse_C#\Warehouse_C#\obj\Debug\net8.0\Warehouse_C#.sourcelink.json
+C:\Users\germa\Desktop\TOP\HW\Warehouse_C#\Warehouse_C#\obj\Debug\net8.0\Warehouse_C#.dll
+C:\Users\germa\Desktop\TOP\HW\Warehouse_C#\Warehouse_C#\obj\Debug\net8.0\refint\Warehouse_C#.dll
+C:\Users\germa\Desktop\TOP\HW\Warehouse_C#\Warehouse_C#\obj\Debug\net8.0\Warehouse_C#.pdb
+C:\Users\germa\Desktop\TOP\HW\Warehouse_C#\Warehouse_C#\obj\Debug\net8.0\Warehouse_C#.genruntimeconfig.cache
+C:\Users\germa\Desktop\TOP\HW\Warehouse_C#\Warehouse_C#\obj\Debug\net8.0\ref\Warehouse_C#.dll

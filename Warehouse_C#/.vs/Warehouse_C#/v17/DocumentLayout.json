@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\germa\\Desktop\\TOP\\HW\\Warehouse_C#\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A334F4BE-5273-4C38-A56C-0A21FAF90962}|Warehouse_C#\\Warehouse_C#.csproj|c:\\users\\germa\\desktop\\top\\hw\\warehouse_c#\\warehouse_c#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A334F4BE-5273-4C38-A56C-0A21FAF90962}|Warehouse_C#\\Warehouse_C#.csproj|solutionrelative:warehouse_c#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\Warehouse_C#\\Warehouse_C#\\Program.cs",
+              "RelativeDocumentMoniker": "Warehouse_C#\\Program.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\Warehouse_C#\\Warehouse_C#\\Program.cs",
+              "RelativeToolTip": "Warehouse_C#\\Program.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAQwIAAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-11T11:47:45.583Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
