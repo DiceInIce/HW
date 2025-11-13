@@ -1,0 +1,15 @@
+C:\Users\germa\Desktop\TOP\HW\Race_C#\Race_C#\bin\Debug\net8.0\Race_C#.exe
+C:\Users\germa\Desktop\TOP\HW\Race_C#\Race_C#\bin\Debug\net8.0\Race_C#.deps.json
+C:\Users\germa\Desktop\TOP\HW\Race_C#\Race_C#\bin\Debug\net8.0\Race_C#.runtimeconfig.json
+C:\Users\germa\Desktop\TOP\HW\Race_C#\Race_C#\bin\Debug\net8.0\Race_C#.dll
+C:\Users\germa\Desktop\TOP\HW\Race_C#\Race_C#\bin\Debug\net8.0\Race_C#.pdb
+C:\Users\germa\Desktop\TOP\HW\Race_C#\Race_C#\obj\Debug\net8.0\Race_C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\Desktop\TOP\HW\Race_C#\Race_C#\obj\Debug\net8.0\Race_C#.AssemblyInfoInputs.cache
+C:\Users\germa\Desktop\TOP\HW\Race_C#\Race_C#\obj\Debug\net8.0\Race_C#.AssemblyInfo.cs
+C:\Users\germa\Desktop\TOP\HW\Race_C#\Race_C#\obj\Debug\net8.0\Race_C#.csproj.CoreCompileInputs.cache
+C:\Users\germa\Desktop\TOP\HW\Race_C#\Race_C#\obj\Debug\net8.0\Race_C#.sourcelink.json
+C:\Users\germa\Desktop\TOP\HW\Race_C#\Race_C#\obj\Debug\net8.0\Race_C#.dll
+C:\Users\germa\Desktop\TOP\HW\Race_C#\Race_C#\obj\Debug\net8.0\refint\Race_C#.dll
+C:\Users\germa\Desktop\TOP\HW\Race_C#\Race_C#\obj\Debug\net8.0\Race_C#.pdb
+C:\Users\germa\Desktop\TOP\HW\Race_C#\Race_C#\obj\Debug\net8.0\Race_C#.genruntimeconfig.cache
+C:\Users\germa\Desktop\TOP\HW\Race_C#\Race_C#\obj\Debug\net8.0\ref\Race_C#.dll

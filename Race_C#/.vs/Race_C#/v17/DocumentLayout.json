@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\germa\\Desktop\\TOP\\HW\\Race_C#\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6A06CC84-5711-467E-85E9-CB98CD2434FF}|Race_C#\\Race_C#.csproj|c:\\users\\germa\\desktop\\top\\hw\\race_c#\\race_c#\\mainrace\\race.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A06CC84-5711-467E-85E9-CB98CD2434FF}|Race_C#\\Race_C#.csproj|solutionrelative:race_c#\\mainrace\\race.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A06CC84-5711-467E-85E9-CB98CD2434FF}|Race_C#\\Race_C#.csproj|c:\\users\\germa\\desktop\\top\\hw\\race_c#\\race_c#\\cars\\sportcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A06CC84-5711-467E-85E9-CB98CD2434FF}|Race_C#\\Race_C#.csproj|solutionrelative:race_c#\\cars\\sportcar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A06CC84-5711-467E-85E9-CB98CD2434FF}|Race_C#\\Race_C#.csproj|c:\\users\\germa\\desktop\\top\\hw\\race_c#\\race_c#\\cars\\truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A06CC84-5711-467E-85E9-CB98CD2434FF}|Race_C#\\Race_C#.csproj|solutionrelative:race_c#\\cars\\truck.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A06CC84-5711-467E-85E9-CB98CD2434FF}|Race_C#\\Race_C#.csproj|c:\\users\\germa\\desktop\\top\\hw\\race_c#\\race_c#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A06CC84-5711-467E-85E9-CB98CD2434FF}|Race_C#\\Race_C#.csproj|solutionrelative:race_c#\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A06CC84-5711-467E-85E9-CB98CD2434FF}|Race_C#\\Race_C#.csproj|c:\\users\\germa\\desktop\\top\\hw\\race_c#\\race_c#\\cars\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A06CC84-5711-467E-85E9-CB98CD2434FF}|Race_C#\\Race_C#.csproj|solutionrelative:race_c#\\cars\\car.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A06CC84-5711-467E-85E9-CB98CD2434FF}|Race_C#\\Race_C#.csproj|c:\\users\\germa\\desktop\\top\\hw\\race_c#\\race_c#\\cars\\bus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A06CC84-5711-467E-85E9-CB98CD2434FF}|Race_C#\\Race_C#.csproj|solutionrelative:race_c#\\cars\\bus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A06CC84-5711-467E-85E9-CB98CD2434FF}|Race_C#\\Race_C#.csproj|c:\\users\\germa\\desktop\\top\\hw\\race_c#\\race_c#\\cars\\simplecar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6A06CC84-5711-467E-85E9-CB98CD2434FF}|Race_C#\\Race_C#.csproj|solutionrelative:race_c#\\cars\\simplecar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Race.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\Race_C#\\Race_C#\\MainRace\\Race.cs",
+              "RelativeDocumentMoniker": "Race_C#\\MainRace\\Race.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\Race_C#\\Race_C#\\MainRace\\Race.cs",
+              "RelativeToolTip": "Race_C#\\MainRace\\Race.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwC0AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T10:39:49.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SimpleCar.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\Race_C#\\Race_C#\\Cars\\SimpleCar.cs",
+              "RelativeDocumentMoniker": "Race_C#\\Cars\\SimpleCar.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\Race_C#\\Race_C#\\Cars\\SimpleCar.cs",
+              "RelativeToolTip": "Race_C#\\Cars\\SimpleCar.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T10:16:51.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Bus.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\Race_C#\\Race_C#\\Cars\\Bus.cs",
+              "RelativeDocumentMoniker": "Race_C#\\Cars\\Bus.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\Race_C#\\Race_C#\\Cars\\Bus.cs",
+              "RelativeToolTip": "Race_C#\\Cars\\Bus.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T10:16:13.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Truck.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\Race_C#\\Race_C#\\Cars\\Truck.cs",
+              "RelativeDocumentMoniker": "Race_C#\\Cars\\Truck.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\Race_C#\\Race_C#\\Cars\\Truck.cs",
+              "RelativeToolTip": "Race_C#\\Cars\\Truck.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T10:16:07.74Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "SportCar.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\Race_C#\\Race_C#\\Cars\\SportCar.cs",
+              "RelativeDocumentMoniker": "Race_C#\\Cars\\SportCar.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\Race_C#\\Race_C#\\Cars\\SportCar.cs",
+              "RelativeToolTip": "Race_C#\\Cars\\SportCar.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T10:15:43.462Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Car.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\Race_C#\\Race_C#\\Cars\\Car.cs",
+              "RelativeDocumentMoniker": "Race_C#\\Cars\\Car.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\Race_C#\\Race_C#\\Cars\\Car.cs",
+              "RelativeToolTip": "Race_C#\\Cars\\Car.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T10:15:01.467Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\Race_C#\\Race_C#\\Program.cs",
+              "RelativeDocumentMoniker": "Race_C#\\Program.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\Race_C#\\Race_C#\\Program.cs",
+              "RelativeToolTip": "Race_C#\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-13T10:12:58.406Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
