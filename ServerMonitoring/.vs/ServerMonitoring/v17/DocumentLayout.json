@@ -1,0 +1,194 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\germa\\Desktop\\TOP\\HW\\ServerMonitoring\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{622157CD-8348-432B-B070-CD729B6B3FEE}|ServerMonitoring\\ServerMonitoring.csproj|c:\\users\\germa\\desktop\\top\\hw\\servermonitoring\\servermonitoring\\notifiers\\interfaces\\inotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{622157CD-8348-432B-B070-CD729B6B3FEE}|ServerMonitoring\\ServerMonitoring.csproj|solutionrelative:servermonitoring\\notifiers\\interfaces\\inotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{622157CD-8348-432B-B070-CD729B6B3FEE}|ServerMonitoring\\ServerMonitoring.csproj|c:\\users\\germa\\desktop\\top\\hw\\servermonitoring\\servermonitoring\\notifiers\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{622157CD-8348-432B-B070-CD729B6B3FEE}|ServerMonitoring\\ServerMonitoring.csproj|solutionrelative:servermonitoring\\notifiers\\logger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{622157CD-8348-432B-B070-CD729B6B3FEE}|ServerMonitoring\\ServerMonitoring.csproj|c:\\users\\germa\\desktop\\top\\hw\\servermonitoring\\servermonitoring\\notifiers\\emailnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{622157CD-8348-432B-B070-CD729B6B3FEE}|ServerMonitoring\\ServerMonitoring.csproj|solutionrelative:servermonitoring\\notifiers\\emailnotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{622157CD-8348-432B-B070-CD729B6B3FEE}|ServerMonitoring\\ServerMonitoring.csproj|c:\\users\\germa\\desktop\\top\\hw\\servermonitoring\\servermonitoring\\notifiers\\dashboardupdater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{622157CD-8348-432B-B070-CD729B6B3FEE}|ServerMonitoring\\ServerMonitoring.csproj|solutionrelative:servermonitoring\\notifiers\\dashboardupdater.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{622157CD-8348-432B-B070-CD729B6B3FEE}|ServerMonitoring\\ServerMonitoring.csproj|c:\\users\\germa\\desktop\\top\\hw\\servermonitoring\\servermonitoring\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{622157CD-8348-432B-B070-CD729B6B3FEE}|ServerMonitoring\\ServerMonitoring.csproj|solutionrelative:servermonitoring\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{622157CD-8348-432B-B070-CD729B6B3FEE}|ServerMonitoring\\ServerMonitoring.csproj|c:\\users\\germa\\desktop\\top\\hw\\servermonitoring\\servermonitoring\\monitoring\\servermonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{622157CD-8348-432B-B070-CD729B6B3FEE}|ServerMonitoring\\ServerMonitoring.csproj|solutionrelative:servermonitoring\\monitoring\\servermonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{622157CD-8348-432B-B070-CD729B6B3FEE}|ServerMonitoring\\ServerMonitoring.csproj|c:\\users\\germa\\desktop\\top\\hw\\servermonitoring\\servermonitoring\\monitoring\\alertmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{622157CD-8348-432B-B070-CD729B6B3FEE}|ServerMonitoring\\ServerMonitoring.csproj|solutionrelative:servermonitoring\\monitoring\\alertmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{622157CD-8348-432B-B070-CD729B6B3FEE}|ServerMonitoring\\ServerMonitoring.csproj|c:\\users\\germa\\desktop\\top\\hw\\servermonitoring\\servermonitoring\\models\\serverstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{622157CD-8348-432B-B070-CD729B6B3FEE}|ServerMonitoring\\ServerMonitoring.csproj|solutionrelative:servermonitoring\\models\\serverstatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{622157CD-8348-432B-B070-CD729B6B3FEE}|ServerMonitoring\\ServerMonitoring.csproj|c:\\users\\germa\\desktop\\top\\hw\\servermonitoring\\servermonitoring\\notifiers\\consolenotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{622157CD-8348-432B-B070-CD729B6B3FEE}|ServerMonitoring\\ServerMonitoring.csproj|solutionrelative:servermonitoring\\notifiers\\consolenotifier.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{622157CD-8348-432B-B070-CD729B6B3FEE}|ServerMonitoring\\ServerMonitoring.csproj|c:\\users\\germa\\desktop\\top\\hw\\servermonitoring\\servermonitoring\\models\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{622157CD-8348-432B-B070-CD729B6B3FEE}|ServerMonitoring\\ServerMonitoring.csproj|solutionrelative:servermonitoring\\models\\server.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "INotifier.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\ServerMonitoring\\ServerMonitoring\\Notifiers\\Interfaces\\INotifier.cs",
+              "RelativeDocumentMoniker": "ServerMonitoring\\Notifiers\\Interfaces\\INotifier.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\ServerMonitoring\\ServerMonitoring\\Notifiers\\Interfaces\\INotifier.cs",
+              "RelativeToolTip": "ServerMonitoring\\Notifiers\\Interfaces\\INotifier.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T13:24:42.105Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DashboardUpdater.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\ServerMonitoring\\ServerMonitoring\\Notifiers\\DashboardUpdater.cs",
+              "RelativeDocumentMoniker": "ServerMonitoring\\Notifiers\\DashboardUpdater.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\ServerMonitoring\\ServerMonitoring\\Notifiers\\DashboardUpdater.cs",
+              "RelativeToolTip": "ServerMonitoring\\Notifiers\\DashboardUpdater.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwCkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T13:10:54.226Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Logger.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\ServerMonitoring\\ServerMonitoring\\Notifiers\\Logger.cs",
+              "RelativeDocumentMoniker": "ServerMonitoring\\Notifiers\\Logger.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\ServerMonitoring\\ServerMonitoring\\Notifiers\\Logger.cs",
+              "RelativeToolTip": "ServerMonitoring\\Notifiers\\Logger.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T11:36:22.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "EmailNotifier.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\ServerMonitoring\\ServerMonitoring\\Notifiers\\EmailNotifier.cs",
+              "RelativeDocumentMoniker": "ServerMonitoring\\Notifiers\\EmailNotifier.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\ServerMonitoring\\ServerMonitoring\\Notifiers\\EmailNotifier.cs",
+              "RelativeToolTip": "ServerMonitoring\\Notifiers\\EmailNotifier.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwCAAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T11:36:19.609Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ConsoleNotifier.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\ServerMonitoring\\ServerMonitoring\\Notifiers\\ConsoleNotifier.cs",
+              "RelativeDocumentMoniker": "ServerMonitoring\\Notifiers\\ConsoleNotifier.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\ServerMonitoring\\ServerMonitoring\\Notifiers\\ConsoleNotifier.cs",
+              "RelativeToolTip": "ServerMonitoring\\Notifiers\\ConsoleNotifier.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAgwCAAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T11:36:10.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AlertManager.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\ServerMonitoring\\ServerMonitoring\\Monitoring\\AlertManager.cs",
+              "RelativeDocumentMoniker": "ServerMonitoring\\Monitoring\\AlertManager.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\ServerMonitoring\\ServerMonitoring\\Monitoring\\AlertManager.cs",
+              "RelativeToolTip": "ServerMonitoring\\Monitoring\\AlertManager.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAIwBsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T11:35:45.012Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ServerMonitor.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\ServerMonitoring\\ServerMonitoring\\Monitoring\\ServerMonitor.cs",
+              "RelativeDocumentMoniker": "ServerMonitoring\\Monitoring\\ServerMonitor.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\ServerMonitoring\\ServerMonitoring\\Monitoring\\ServerMonitor.cs",
+              "RelativeToolTip": "ServerMonitoring\\Monitoring\\ServerMonitor.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAMwDsAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T11:35:39.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ServerStatus.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\ServerMonitoring\\ServerMonitoring\\Models\\ServerStatus.cs",
+              "RelativeDocumentMoniker": "ServerMonitoring\\Models\\ServerStatus.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\ServerMonitoring\\ServerMonitoring\\Models\\ServerStatus.cs",
+              "RelativeToolTip": "ServerMonitoring\\Models\\ServerStatus.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T11:35:25.809Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Server.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\ServerMonitoring\\ServerMonitoring\\Models\\Server.cs",
+              "RelativeDocumentMoniker": "ServerMonitoring\\Models\\Server.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\ServerMonitoring\\ServerMonitoring\\Models\\Server.cs",
+              "RelativeToolTip": "ServerMonitoring\\Models\\Server.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T11:35:19.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\ServerMonitoring\\ServerMonitoring\\Program.cs",
+              "RelativeDocumentMoniker": "ServerMonitoring\\Program.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\ServerMonitoring\\ServerMonitoring\\Program.cs",
+              "RelativeToolTip": "ServerMonitoring\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-14T11:34:12.86Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
