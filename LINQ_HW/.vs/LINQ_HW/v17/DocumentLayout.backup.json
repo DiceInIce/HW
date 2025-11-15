@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\germa\\Desktop\\TOP\\HW\\LINQ_HW\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E8CD9F8A-A420-49F2-9623-2632B602AC07}|LINQ_HW_2\\LINQ_HW_2.csproj|c:\\users\\germa\\desktop\\top\\hw\\linq_hw\\linq_hw_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8CD9F8A-A420-49F2-9623-2632B602AC07}|LINQ_HW_2\\LINQ_HW_2.csproj|solutionrelative:linq_hw_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B8FF494-F615-4F26-AECF-5C7095EB9258}|LINQ_HW\\LINQ_HW.csproj|c:\\users\\germa\\desktop\\top\\hw\\linq_hw\\linq_hw\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8B8FF494-F615-4F26-AECF-5C7095EB9258}|LINQ_HW\\LINQ_HW.csproj|solutionrelative:linq_hw\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\LINQ_HW\\LINQ_HW_2\\Program.cs",
+              "RelativeDocumentMoniker": "LINQ_HW_2\\Program.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\LINQ_HW\\LINQ_HW_2\\Program.cs",
+              "RelativeToolTip": "LINQ_HW_2\\Program.cs",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAkwK8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T11:17:43.451Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\LINQ_HW\\LINQ_HW\\Program.cs",
+              "RelativeDocumentMoniker": "LINQ_HW\\Program.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\LINQ_HW\\LINQ_HW\\Program.cs",
+              "RelativeToolTip": "LINQ_HW\\Program.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAADwv5sAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-15T10:05:13.436Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

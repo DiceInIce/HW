@@ -1,0 +1,15 @@
+C:\Users\germa\Desktop\TOP\HW\LINQ_HW\LINQ_HW\bin\Debug\net8.0\LINQ_HW.exe
+C:\Users\germa\Desktop\TOP\HW\LINQ_HW\LINQ_HW\bin\Debug\net8.0\LINQ_HW.deps.json
+C:\Users\germa\Desktop\TOP\HW\LINQ_HW\LINQ_HW\bin\Debug\net8.0\LINQ_HW.runtimeconfig.json
+C:\Users\germa\Desktop\TOP\HW\LINQ_HW\LINQ_HW\bin\Debug\net8.0\LINQ_HW.dll
+C:\Users\germa\Desktop\TOP\HW\LINQ_HW\LINQ_HW\bin\Debug\net8.0\LINQ_HW.pdb
+C:\Users\germa\Desktop\TOP\HW\LINQ_HW\LINQ_HW\obj\Debug\net8.0\LINQ_HW.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\germa\Desktop\TOP\HW\LINQ_HW\LINQ_HW\obj\Debug\net8.0\LINQ_HW.AssemblyInfoInputs.cache
+C:\Users\germa\Desktop\TOP\HW\LINQ_HW\LINQ_HW\obj\Debug\net8.0\LINQ_HW.AssemblyInfo.cs
+C:\Users\germa\Desktop\TOP\HW\LINQ_HW\LINQ_HW\obj\Debug\net8.0\LINQ_HW.csproj.CoreCompileInputs.cache
+C:\Users\germa\Desktop\TOP\HW\LINQ_HW\LINQ_HW\obj\Debug\net8.0\LINQ_HW.sourcelink.json
+C:\Users\germa\Desktop\TOP\HW\LINQ_HW\LINQ_HW\obj\Debug\net8.0\LINQ_HW.dll
+C:\Users\germa\Desktop\TOP\HW\LINQ_HW\LINQ_HW\obj\Debug\net8.0\refint\LINQ_HW.dll
+C:\Users\germa\Desktop\TOP\HW\LINQ_HW\LINQ_HW\obj\Debug\net8.0\LINQ_HW.pdb
+C:\Users\germa\Desktop\TOP\HW\LINQ_HW\LINQ_HW\obj\Debug\net8.0\LINQ_HW.genruntimeconfig.cache
+C:\Users\germa\Desktop\TOP\HW\LINQ_HW\LINQ_HW\obj\Debug\net8.0\ref\LINQ_HW.dll
