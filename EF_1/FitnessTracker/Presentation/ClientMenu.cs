@@ -52,7 +52,7 @@ public class ClientMenu
 
 			Console.Write("Дата рождения (yyyy-MM-dd): ");
 			if (!DateTime.TryParse(Console.ReadLine(), out DateTime birthDate)) { UIHelper.Error("Неверный формат даты"); Console.ReadKey(); return; }
-			birthDate = DateTime.SpecifyKind(birthDate, DateTimeKind.Utc);
+			birthDate = DateTime.SpecifyKind(birthDate, DateTimeKind.Unspecified);
 
 			Console.Write("Тип абонемента: ");
 			string membershipType = Console.ReadLine() ?? "";
@@ -62,7 +62,7 @@ public class ClientMenu
 			string? email = Console.ReadLine();
 			if (string.IsNullOrWhiteSpace(email)) email = null;
 
-			var client = new Client { FullName = fullName, BirthDate = birthDate, MembershipType = membershipType, RegistrationDate = DateTime.UtcNow, Email = email };
+			var client = new Client { FullName = fullName, BirthDate = birthDate, MembershipType = membershipType, RegistrationDate = DateTime.SpecifyKind(DateTime.Now, DateTimeKind.Unspecified), Email = email };
 			bool success = _service.Add(client);
 			if (success)
 			{

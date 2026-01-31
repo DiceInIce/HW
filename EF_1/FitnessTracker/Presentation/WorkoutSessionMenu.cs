@@ -25,6 +25,7 @@ public class WorkoutSessionMenu
 		_exerciseService = exerciseService;
 	}
 
+
 	public void Run()
 	{
 		bool running = true;
@@ -72,7 +73,7 @@ public class WorkoutSessionMenu
 			Console.WriteLine("=== ДОБАВЛЕНИЕ ТРЕНИРОВКИ ===");
 			Console.Write("Дата (yyyy-MM-dd HH:mm): ");
 			if (!DateTime.TryParse(Console.ReadLine(), out DateTime date)) { UIHelper.Error("Неверный формат даты"); Console.ReadKey(); return; }
-			date = DateTime.SpecifyKind(date, DateTimeKind.Utc);
+			date = DateTime.SpecifyKind(date, DateTimeKind.Unspecified);
 
 			Console.Write("Длительность (минут): ");
 			if (!int.TryParse(Console.ReadLine(), out int duration) || duration <= 0) { UIHelper.Error("Неверная длительность"); Console.ReadKey(); return; }
@@ -83,8 +84,9 @@ public class WorkoutSessionMenu
 			Console.Write("Тип тренировки: ");
 			string sessionType = Console.ReadLine() ?? "";
 			if (string.IsNullOrWhiteSpace(sessionType)) { UIHelper.Error("Тип не может быть пустым"); Console.ReadKey(); return; }
+			
 
-			var session = new WorkoutSession { Date = date, DurationMinutes = duration, CaloriesBurned = calories, SessionType = sessionType };
+			var session = new WorkoutSession { Date = date, DurationMinutes = duration, CaloriesBurned = calories, SessionType = sessionType, ClientId = null, TrainerId = null };
 			bool success = _workoutSessionService.Add(session);
 			if (success)
 			{
@@ -150,7 +152,7 @@ public class WorkoutSessionMenu
 			// Ввод данных тренировки
 			Console.Write("\nДата (yyyy-MM-dd HH:mm): ");
 			if (!DateTime.TryParse(Console.ReadLine(), out DateTime date)) { UIHelper.Error("Неверный формат даты"); Console.ReadKey(); return; }
-			date = DateTime.SpecifyKind(date, DateTimeKind.Utc);
+			date = DateTime.SpecifyKind(date, DateTimeKind.Unspecified);
 
 			Console.Write("Длительность (минут): ");
 			if (!int.TryParse(Console.ReadLine(), out int duration) || duration <= 0) { UIHelper.Error("Неверная длительность"); Console.ReadKey(); return; }
@@ -282,11 +284,11 @@ public class WorkoutSessionMenu
 		Console.Clear();
 			Console.Write("Начальная дата (yyyy-MM-dd): ");
 			if (!DateTime.TryParse(Console.ReadLine(), out DateTime startDate)) { UIHelper.Error("Неверный формат даты"); Console.ReadKey(); return; }
-			startDate = DateTime.SpecifyKind(startDate, DateTimeKind.Utc);
+			startDate = DateTime.SpecifyKind(startDate, DateTimeKind.Unspecified);
 
 			Console.Write("Конечная дата (yyyy-MM-dd): ");
 			if (!DateTime.TryParse(Console.ReadLine(), out DateTime endDate)) { UIHelper.Error("Неверный формат даты"); Console.ReadKey(); return; }
-			endDate = DateTime.SpecifyKind(endDate, DateTimeKind.Utc);
+			endDate = DateTime.SpecifyKind(endDate, DateTimeKind.Unspecified);
 
 		var sessions = _workoutSessionService.GetByDateRange(startDate, endDate);
 		if (sessions.Count == 0) { UIHelper.Info("Тренировки не найдены"); Console.ReadKey(); return; }
