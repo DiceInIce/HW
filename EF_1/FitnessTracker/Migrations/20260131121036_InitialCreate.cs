@@ -25,8 +25,7 @@ namespace FitnessTracker.Migrations
                     FullName = table.Column<string>(type: "varchar(100)", maxLength: 100, nullable: false),
                     BirthDate = table.Column<DateTime>(type: "date", nullable: false),
                     MembershipType = table.Column<string>(type: "varchar(20)", maxLength: 20, nullable: false, defaultValue: "Разовый"),
-                    RegistrationDate = table.Column<DateTime>(type: "timestamp", nullable: false, defaultValueSql: "CURRENT_TIMESTAMP"),
-                    Email = table.Column<string>(type: "varchar(100)", maxLength: 100, nullable: true)
+                    RegistrationDate = table.Column<DateTime>(type: "timestamp", nullable: false, defaultValueSql: "CURRENT_TIMESTAMP")
                 },
                 constraints: table =>
                 {
@@ -83,13 +82,6 @@ namespace FitnessTracker.Migrations
                 {
                     table.PrimaryKey("PK_WorkoutSessions", x => x.Id);
                 });
-
-            migrationBuilder.CreateIndex(
-                name: "idx_client_email",
-                schema: "fitness",
-                table: "Clients",
-                column: "Email",
-                unique: true);
 
             migrationBuilder.CreateIndex(
                 name: "idx_client_fullname",

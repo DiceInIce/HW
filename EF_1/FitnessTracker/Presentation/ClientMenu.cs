@@ -58,7 +58,11 @@ public class ClientMenu
 			string membershipType = Console.ReadLine() ?? "";
 			if (string.IsNullOrWhiteSpace(membershipType)) { UIHelper.Error("Тип абонемента не может быть пустым"); Console.ReadKey(); return; }
 
-			var client = new Client { FullName = fullName, BirthDate = birthDate, MembershipType = membershipType, RegistrationDate = DateTime.UtcNow };
+			Console.Write("Email (необязательно): ");
+			string? email = Console.ReadLine();
+			if (string.IsNullOrWhiteSpace(email)) email = null;
+
+			var client = new Client { FullName = fullName, BirthDate = birthDate, MembershipType = membershipType, RegistrationDate = DateTime.UtcNow, Email = email };
 			bool success = _service.Add(client);
 			if (success)
 			{
@@ -90,10 +94,10 @@ public class ClientMenu
 
 		LoggerHelper.Log($"Показаны все клиенты. Записей: {clients.Count}");
 		Console.WriteLine("=== СПИСОК КЛИЕНТОВ ===");
-		Console.WriteLine(string.Format("{0,-5} {1,-20} {2,-15} {3,-20} {4,-20}", "ID", "Имя", "Дата рождения", "Абонемент", "Дата регистрации"));
-		Console.WriteLine(new string('-', 85));
+		Console.WriteLine(string.Format("{0,-5} {1,-20} {2,-15} {3,-20} {4,-20} {5,-30}", "ID", "Имя", "Дата рождения", "Абонемент", "Дата регистрации", "Email"));
+		Console.WriteLine(new string('-', 120));
 		foreach (var c in clients)
-			Console.WriteLine($"{c.Id,-5} {c.FullName,-20} {c.BirthDate,-15:yyyy-MM-dd} {c.MembershipType,-20} {c.RegistrationDate,-20:yyyy-MM-dd}");
+			Console.WriteLine($"{c.Id,-5} {c.FullName,-20} {c.BirthDate,-15:yyyy-MM-dd} {c.MembershipType,-20} {c.RegistrationDate,-20:yyyy-MM-dd} {c.Email ?? "—",-30}");
 		Console.WriteLine($"\nВсего записей: {clients.Count}");
 		Console.WriteLine("Нажмите любую клавишу...");
 		Console.ReadKey();
@@ -181,6 +185,11 @@ public class ClientMenu
 			string newMembership = Console.ReadLine() ?? "";
 			if (!string.IsNullOrWhiteSpace(newMembership)) client.MembershipType = newMembership;
 
+			Console.Write("Новый Email (оставьте пустым, чтобы не изменять): ");
+			string? newEmail = Console.ReadLine();
+			if (newEmail != null && newEmail != "") client.Email = newEmail;
+			else if (newEmail == "") client.Email = null; // Позволяем очистить Email
+
 			if (UIHelper.Confirm("Подтвердить изменения?"))
 			{
 				bool success = _service.Update(client);
@@ -264,5 +273,6 @@ public class ClientMenu
 		Console.WriteLine($"Дата рождения: {c.BirthDate:yyyy-MM-dd}");
 		Console.WriteLine($"Абонемент: {c.MembershipType}");
 		Console.WriteLine($"Дата регистрации: {c.RegistrationDate:yyyy-MM-dd}");
+		Console.WriteLine($"Email: {c.Email ?? "не указан"}");
 	}
 }
