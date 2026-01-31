@@ -41,5 +41,11 @@ public class ClientConfiguration : IEntityTypeConfiguration<Client>
 		builder.HasIndex(c => c.FullName).HasDatabaseName("idx_client_fullname");
 		builder.HasIndex(c => c.Email).HasDatabaseName("idx_client_email").IsUnique();
 		builder.HasIndex(c => c.MembershipType).HasDatabaseName("idx_client_membership");
+
+		// Relationship: One-to-Many with WorkoutSession
+		builder.HasMany(c => c.WorkoutSessions)
+			.WithOne(w => w.Client)
+			.HasForeignKey(w => w.ClientId)
+			.OnDelete(DeleteBehavior.SetNull);
 	}
 }

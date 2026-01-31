@@ -16,6 +16,7 @@ public class FitnessTrackerContext : DbContext
 	public DbSet<Client> Clients { get; set; }
 	public DbSet<Trainer> Trainers { get; set; }
 	public DbSet<WorkoutSession> WorkoutSessions { get; set; }
+	public DbSet<WorkoutExercise> WorkoutExercises { get; set; }
 
 	public FitnessTrackerContext(AppConfiguration appConfiguration)
 	{
@@ -77,6 +78,7 @@ public class FitnessTrackerContext : DbContext
 		modelBuilder.ApplyConfiguration(new TrainerConfiguration());
 		modelBuilder.ApplyConfiguration(new ExerciseConfiguration());
 		modelBuilder.ApplyConfiguration(new WorkoutSessionConfiguration());
+		modelBuilder.ApplyConfiguration(new WorkoutExerciseConfiguration());
 
 		// Global query filters - only active memberships
 		modelBuilder.Entity<Client>()

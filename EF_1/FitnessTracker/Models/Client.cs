@@ -8,4 +8,7 @@ public class Client
 	public string MembershipType { get; set; } = string.Empty;
 	public DateTime RegistrationDate { get; set; }
 	public string? Email { get; set; }
+
+	// Navigation property
+	public virtual ICollection<WorkoutSession> WorkoutSessions { get; set; } = new List<WorkoutSession>();
 }

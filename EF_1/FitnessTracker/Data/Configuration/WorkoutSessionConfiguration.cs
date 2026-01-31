@@ -34,5 +34,18 @@ public class WorkoutSessionConfiguration : IEntityTypeConfiguration<WorkoutSessi
 		// Indexes
 		builder.HasIndex(w => w.Date).HasDatabaseName("idx_session_date");
 		builder.HasIndex(w => w.SessionType).HasDatabaseName("idx_session_type");
+
+		// Foreign key properties
+		builder.Property(w => w.ClientId)
+			.HasColumnType("integer");
+
+		builder.Property(w => w.TrainerId)
+			.HasColumnType("integer");
+
+		// Relationship: One-to-Many with WorkoutExercise
+		builder.HasMany(w => w.WorkoutExercises)
+			.WithOne(we => we.WorkoutSession)
+			.HasForeignKey(we => we.WorkoutSessionId)
+			.OnDelete(DeleteBehavior.Cascade);
 	}
 }

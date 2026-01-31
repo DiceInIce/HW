@@ -35,5 +35,11 @@ public class ExerciseConfiguration : IEntityTypeConfiguration<Exercise>
 		builder.HasIndex(e => e.Name).HasDatabaseName("idx_exercise_name");
 		builder.HasIndex(e => e.DifficultyLevel).HasDatabaseName("idx_exercise_difficulty");
 		builder.HasIndex(e => e.TargetMuscleGroup).HasDatabaseName("idx_exercise_muscle");
+
+		// Relationship: One-to-Many with WorkoutExercise
+		builder.HasMany(e => e.WorkoutExercises)
+			.WithOne(we => we.Exercise)
+			.HasForeignKey(we => we.ExerciseId)
+			.OnDelete(DeleteBehavior.Cascade);
 	}
 }

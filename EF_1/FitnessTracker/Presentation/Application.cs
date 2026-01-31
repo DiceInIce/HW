@@ -16,11 +16,17 @@ public class Application
 		var clientService = new ClientService(context);
 		var trainerService = new TrainerService(context);
 		var workoutSessionService = new WorkoutSessionService(context);
+		var workoutExerciseService = new WorkoutExerciseService(context);
 
 		_exerciseMenu = new ExerciseMenu(exerciseService);
 		_clientMenu = new ClientMenu(clientService);
 		_trainerMenu = new TrainerMenu(trainerService);
-		_workoutSessionMenu = new WorkoutSessionMenu(workoutSessionService);
+		_workoutSessionMenu = new WorkoutSessionMenu(
+			workoutSessionService,
+			workoutExerciseService,
+			clientService,
+			trainerService,
+			exerciseService);
 	}
 
 	public void Run()

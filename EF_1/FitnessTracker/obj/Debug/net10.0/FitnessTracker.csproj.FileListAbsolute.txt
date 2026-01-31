@@ -106,3 +106,5 @@ C:\Users\germa\Desktop\TOP\HW\EF_1\FitnessTracker\bin\Debug\net10.0\Microsoft.Ex
 C:\Users\germa\Desktop\TOP\HW\EF_1\FitnessTracker\bin\Debug\net10.0\Microsoft.Extensions.Logging.Configuration.dll
 C:\Users\germa\Desktop\TOP\HW\EF_1\FitnessTracker\bin\Debug\net10.0\Microsoft.Extensions.Logging.Console.dll
 C:\Users\germa\Desktop\TOP\HW\EF_1\FitnessTracker\bin\Debug\net10.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+C:\Users\germa\Desktop\TOP\HW\EF_1\FitnessTracker\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\germa\Desktop\TOP\HW\EF_1\FitnessTracker\bin\Debug\net10.0\appsettings.json

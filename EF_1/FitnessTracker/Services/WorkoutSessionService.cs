@@ -13,15 +13,44 @@ public class WorkoutSessionService
 		db = context;
 	}
 
-	public List<WorkoutSession> GetAll() => db.WorkoutSessions.ToList();
+	public List<WorkoutSession> GetAll() => 
+		db.WorkoutSessions
+			.Include(s => s.Client)
+			.Include(s => s.Trainer)
+			.Include(s => s.WorkoutExercises)
+				.ThenInclude(we => we.Exercise)
+			.ToList();
 
-	public WorkoutSession? GetById(int id) => db.WorkoutSessions.FirstOrDefault(s => s.Id == id);
+	public WorkoutSession? GetById(int id) => 
+		db.WorkoutSessions
+			.Include(s => s.Client)
+			.Include(s => s.Trainer)
+			.Include(s => s.WorkoutExercises)
+				.ThenInclude(we => we.Exercise)
+			.FirstOrDefault(s => s.Id == id);
+
+	public List<WorkoutSession> GetByClientId(int clientId) =>
+		db.WorkoutSessions
+			.Where(s => s.ClientId == clientId)
+			.Include(s => s.Client)
+			.Include(s => s.Trainer)
+			.Include(s => s.WorkoutExercises)
+				.ThenInclude(we => we.Exercise)
+			.ToList();
 
 	public List<WorkoutSession> GetBySessionType(string sessionType) =>
-			db.WorkoutSessions.Where(s => s.SessionType == sessionType).ToList();
+		db.WorkoutSessions
+			.Where(s => s.SessionType == sessionType)
+			.Include(s => s.Client)
+			.Include(s => s.Trainer)
+			.ToList();
 
 	public List<WorkoutSession> GetByDateRange(DateTime startDate, DateTime endDate) =>
-			db.WorkoutSessions.Where(s => s.Date >= startDate && s.Date <= endDate).ToList();
+		db.WorkoutSessions
+			.Where(s => s.Date >= startDate && s.Date <= endDate)
+			.Include(s => s.Client)
+			.Include(s => s.Trainer)
+			.ToList();
 
 	public bool Add(WorkoutSession session)
 	{

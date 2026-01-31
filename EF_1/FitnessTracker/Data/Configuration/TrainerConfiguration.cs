@@ -35,5 +35,11 @@ public class TrainerConfiguration : IEntityTypeConfiguration<Trainer>
 		builder.HasIndex(t => t.FullName).HasDatabaseName("idx_trainer_fullname");
 		builder.HasIndex(t => t.Specialization).HasDatabaseName("idx_trainer_specialization");
 		builder.HasIndex(t => t.PhoneNumber).HasDatabaseName("idx_trainer_phone").IsUnique();
+
+		// Relationship: One-to-Many with WorkoutSession
+		builder.HasMany(t => t.WorkoutSessions)
+			.WithOne(w => w.Trainer)
+			.HasForeignKey(w => w.TrainerId)
+			.OnDelete(DeleteBehavior.SetNull);
 	}
 }
