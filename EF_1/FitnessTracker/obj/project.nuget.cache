@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wyDR3Hh4SVI=",
+  "dgSpecHash": "Y1TcVwdJ/Fk=",
   "success": true,
-  "projectFilePath": "c:\\Users\\germa\\Desktop\\TOP\\HW\\EF_1\\FitnessTracker\\FitnessTracker.csproj",
+  "projectFilePath": "C:\\Users\\germa\\Desktop\\TOP\\HW\\EF_1\\FitnessTracker\\FitnessTracker.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\germa\\.nuget\\packages\\dotenv.net\\4.0.0\\dotenv.net.4.0.0.nupkg.sha512",
     "C:\\Users\\germa\\.nuget\\packages\\dotnetenv\\3.0.0\\dotnetenv.3.0.0.nupkg.sha512",
