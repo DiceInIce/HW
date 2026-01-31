@@ -1,46 +1,75 @@
 using FitnessTracker.Data;
 using FitnessTracker.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace FitnessTracker.Services;
 
 public class TrainerService
 {
-    private readonly FitnessTrackerContext _context;
+	private FitnessTrackerContext db;
 
-    public TrainerService(FitnessTrackerContext context)
-    {
-        _context = context;
-    }
+	public TrainerService(FitnessTrackerContext context)
+	{
+		db = context;
+	}
 
-    public List<Trainer> GetAll() => _context.Trainers.ToList();
+	public List<Trainer> GetAll() => db.Trainers.ToList();
 
-    public Trainer? GetById(int id) => _context.Trainers.FirstOrDefault(t => t.Id == id);
+	public Trainer? GetById(int id) => db.Trainers.FirstOrDefault(t => t.Id == id);
 
-    public List<Trainer> GetBySpecialization(string specialization) =>
-        _context.Trainers.Where(t => t.Specialization.Contains(specialization)).ToList();
+	public List<Trainer> GetBySpecialization(string specialization) =>
+			db.Trainers.Where(t => t.Specialization.Contains(specialization)).ToList();
 
-    public List<Trainer> GetByMinimumExperience(int years) =>
-        _context.Trainers.Where(t => t.ExperienceYears >= years).ToList();
+	public List<Trainer> GetByMinimumExperience(int years) =>
+			db.Trainers.Where(t => t.ExperienceYears >= years).ToList();
 
-    public void Add(Trainer trainer)
-    {
-        _context.Trainers.Add(trainer);
-        _context.SaveChanges();
-    }
+	public bool Add(Trainer t)
+	{
+		try
+		{
+			db.Trainers.Add(t);
+			int changes = db.SaveChanges();
+			return changes > 0;
+		}
+		catch (DbUpdateException dbEx)
+		{
+			throw new InvalidOperationException($"Ошибка при добавлении тренера: {dbEx.Message}", dbEx);
+		}
+	}
 
-    public void Update(Trainer trainer)
-    {
-        _context.Trainers.Update(trainer);
-        _context.SaveChanges();
-    }
+	public bool Update(Trainer t)
+	{
+		try
+		{
+			var existing = GetById(t.Id);
+			if (existing == null)
+				throw new InvalidOperationException("Тренер не найден");
 
-    public void Delete(int id)
-    {
-        var trainer = GetById(id);
-        if (trainer != null)
-        {
-            _context.Trainers.Remove(trainer);
-            _context.SaveChanges();
-        }
-    }
+			db.Trainers.Update(t);
+			int changes = db.SaveChanges();
+			return changes > 0;
+		}
+		catch (DbUpdateException dbEx)
+		{
+			throw new InvalidOperationException($"Ошибка при обновлении тренера: {dbEx.Message}", dbEx);
+		}
+	}
+
+	public bool Delete(int id)
+	{
+		try
+		{
+			var t = GetById(id);
+			if (t == null)
+				throw new InvalidOperationException("Тренер не найден");
+
+			db.Trainers.Remove(t);
+			int changes = db.SaveChanges();
+			return changes > 0;
+		}
+		catch (DbUpdateException dbEx)
+		{
+			throw new InvalidOperationException($"Ошибка при удалении тренера: {dbEx.Message}", dbEx);
+		}
+	}
 }

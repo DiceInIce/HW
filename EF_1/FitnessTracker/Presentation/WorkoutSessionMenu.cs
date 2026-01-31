@@ -5,185 +5,212 @@ namespace FitnessTracker.Presentation;
 
 public class WorkoutSessionMenu
 {
-    private readonly WorkoutSessionService _service;
+	private readonly WorkoutSessionService _service;
 
-    public WorkoutSessionMenu(WorkoutSessionService service) => _service = service;
+	public WorkoutSessionMenu(WorkoutSessionService service) => _service = service;
 
-    public void Run()
-    {
-        bool running = true;
-        while (running)
-        {
-            UIHelper.PrintMenu("УПРАВЛЕНИЕ ТРЕНИРОВКАМИ",
-                "1. Добавить новую тренировку",
-                "2. Показать все тренировки",
-                "3. Найти тренировку по ID",
-                "4. Найти тренировки по типу",
-                "5. Найти тренировки по диапазону дат",
-                "6. Изменить тренировку",
-                "7. Удалить тренировку",
-                "8. Вернуться в главное меню");
+	public void Run()
+	{
+		bool running = true;
+		while (running)
+		{
+			UIHelper.PrintMenu("УПРАВЛЕНИЕ ТРЕНИРОВКАМИ",
+					"1. Добавить новую тренировку",
+					"2. Показать все тренировки",
+					"3. Найти тренировку по ID",
+					"4. Найти тренировки по типу",
+					"5. Найти тренировки по диапазону дат",
+					"6. Изменить тренировку",
+					"7. Удалить тренировку",
+					"8. Вернуться в главное меню");
 
-            switch (Console.ReadLine())
-            {
-                case "1": Add(); break;
-                case "2": ShowAll(); break;
-                case "3": FindById(); break;
-                case "4": FindByType(); break;
-                case "5": FindByDateRange(); break;
-                case "6": Update(); break;
-                case "7": Delete(); break;
-                case "8": running = false; break;
-                default:
-                    UIHelper.Error("Неверный выбор");
-                    Console.ReadKey();
-                    break;
-            }
-        }
-    }
+			switch (Console.ReadLine())
+			{
+				case "1": Add(); break;
+				case "2": ShowAll(); break;
+				case "3": FindById(); break;
+				case "4": FindByType(); break;
+				case "5": FindByDateRange(); break;
+				case "6": Update(); break;
+				case "7": Delete(); break;
+				case "8": running = false; break;
+				default:
+					UIHelper.Error("Неверный выбор");
+					Console.ReadKey();
+					break;
+			}
+		}
+	}
 
-    private void Add()
-    {
-        Console.Clear();
-        Console.WriteLine("=== ДОБАВЛЕНИЕ ТРЕНИРОВКИ ===");
-        Console.Write("Дата (yyyy-MM-dd HH:mm): ");
-        if (!DateTime.TryParse(Console.ReadLine(), out DateTime date)) { UIHelper.Error("Неверный формат даты"); Console.ReadKey(); return; }
+	private void Add()
+	{
+		try
+		{
+			Console.Clear();
+			Console.WriteLine("=== ДОБАВЛЕНИЕ ТРЕНИРОВКИ ===");
+			Console.Write("Дата (yyyy-MM-dd HH:mm): ");
+			if (!DateTime.TryParse(Console.ReadLine(), out DateTime date)) { UIHelper.Error("Неверный формат даты"); Console.ReadKey(); return; }
+			date = DateTime.SpecifyKind(date, DateTimeKind.Utc);
 
-        Console.Write("Длительность (минут): ");
-        if (!int.TryParse(Console.ReadLine(), out int duration) || duration <= 0) { UIHelper.Error("Неверная длительность"); Console.ReadKey(); return; }
+			Console.Write("Длительность (минут): ");
+			if (!int.TryParse(Console.ReadLine(), out int duration) || duration <= 0) { UIHelper.Error("Неверная длительность"); Console.ReadKey(); return; }
 
-        Console.Write("Сожженные калории: ");
-        if (!int.TryParse(Console.ReadLine(), out int calories) || calories < 0) { UIHelper.Error("Неверное количество калорий"); Console.ReadKey(); return; }
+			Console.Write("Сожженные калории: ");
+			if (!int.TryParse(Console.ReadLine(), out int calories) || calories < 0) { UIHelper.Error("Неверное количество калорий"); Console.ReadKey(); return; }
 
-        Console.Write("Тип тренировки: ");
-        string sessionType = Console.ReadLine() ?? "";
-        if (string.IsNullOrWhiteSpace(sessionType)) { UIHelper.Error("Тип не может быть пустым"); Console.ReadKey(); return; }
+			Console.Write("Тип тренировки: ");
+			string sessionType = Console.ReadLine() ?? "";
+			if (string.IsNullOrWhiteSpace(sessionType)) { UIHelper.Error("Тип не может быть пустым"); Console.ReadKey(); return; }
 
-        var session = new WorkoutSession { Date = date, DurationMinutes = duration, CaloriesBurned = calories, SessionType = sessionType };
-        _service.Add(session);
-        UIHelper.Success($"Тренировка добавлена с ID: {session.Id}");
-        Console.ReadKey();
-    }
+			var session = new WorkoutSession { Date = date, DurationMinutes = duration, CaloriesBurned = calories, SessionType = sessionType };
+			bool success = _service.Add(session);
+			if (success)
+			{
+				LoggerHelper.LogSuccess($"Тренировка добавлена: {sessionType} (ID: {session.Id}), длительность: {duration} мин, калории: {calories}");
+				UIHelper.Success($"Тренировка добавлена с ID: {session.Id}");
+			}
+			else
+				LoggerHelper.LogError("Не удалось добавить тренировку");
+		}
+		catch (InvalidOperationException ex)
+		{
+			LoggerHelper.LogError(ex.Message);
+			UIHelper.Error(ex.Message);
+		}
+		Console.ReadKey();
+	}
 
-    private void ShowAll()
-    {
-        Console.Clear();
-        var sessions = _service.GetAll();
-        if (sessions.Count == 0) { UIHelper.Info("Тренировки не найдены"); Console.ReadKey(); return; }
+	private void ShowAll()
+	{
+		Console.Clear();
+		var sessions = _service.GetAll();
+		if (sessions.Count == 0) { UIHelper.Info("Тренировки не найдены"); Console.ReadKey(); return; }
 
-        Console.WriteLine("=== СПИСОК ТРЕНИРОВОК ===");
-        Console.WriteLine(string.Format("{0,-5} {1,-20} {2,-8} {3,-10} {4,-20}", "ID", "Дата", "Мин", "Калории", "Тип"));
-        Console.WriteLine(new string('-', 85));
-        foreach (var s in sessions)
-            Console.WriteLine($"{s.Id,-5} {s.Date:yyyy-MM-dd HH:mm,-20} {s.DurationMinutes,-8} {s.CaloriesBurned,-10} {s.SessionType,-20}");
-        Console.WriteLine("\nНажмите любую клавишу...");
-        Console.ReadKey();
-    }
+		Console.WriteLine("=== СПИСОК ТРЕНИРОВОК ===");
+		Console.WriteLine(string.Format("{0,-5} {1,-20} {2,-8} {3,-10} {4,-20}", "ID", "Дата", "Мин", "Калории", "Тип"));
+		Console.WriteLine(new string('-', 85));
+		foreach (var s in sessions)
+			Console.WriteLine($"{s.Id,-5} {s.Date,-20:yyyy-MM-dd HH:mm} {s.DurationMinutes,-8} {s.CaloriesBurned,-10} {s.SessionType,-20}");
+		Console.WriteLine("\nНажмите любую клавишу...");
+		Console.ReadKey();
+	}
 
-    private void FindById()
-    {
-        Console.Clear();
-        Console.Write("ID тренировки: ");
-        if (!int.TryParse(Console.ReadLine(), out int id)) { UIHelper.Error("Неверный ID"); Console.ReadKey(); return; }
+	private void FindById()
+	{
+		Console.Clear();
+		Console.Write("ID тренировки: ");
+		if (!int.TryParse(Console.ReadLine(), out int id)) { UIHelper.Error("Неверный ID"); Console.ReadKey(); return; }
 
-        var session = _service.GetById(id);
-        if (session == null) { UIHelper.Error("Тренировка не найдена"); Console.ReadKey(); return; }
+		var session = _service.GetById(id);
+		if (session == null) { UIHelper.Error("Тренировка не найдена"); Console.ReadKey(); return; }
 
-        Display(session);
-        Console.ReadKey();
-    }
+		Display(session);
+		Console.ReadKey();
+	}
 
-    private void FindByType()
-    {
-        Console.Clear();
-        Console.Write("Тип тренировки: ");
-        string sessionType = Console.ReadLine() ?? "";
-        var sessions = _service.GetBySessionType(sessionType);
+	private void FindByType()
+	{
+		Console.Clear();
+		Console.Write("Тип тренировки: ");
+		string sessionType = Console.ReadLine() ?? "";
+		var sessions = _service.GetBySessionType(sessionType);
 
-        if (sessions.Count == 0) { UIHelper.Info("Тренировки не найдены"); Console.ReadKey(); return; }
-        Console.WriteLine($"\nНайдено: {sessions.Count}");
-        Console.WriteLine(new string('-', 85));
-        foreach (var s in sessions) { Display(s); Console.WriteLine(new string('-', 85)); }
-        Console.ReadKey();
-    }
+		if (sessions.Count == 0) { UIHelper.Info("Тренировки не найдены"); Console.ReadKey(); return; }
+		Console.WriteLine($"\nНайдено: {sessions.Count}");
+		Console.WriteLine(new string('-', 85));
+		foreach (var s in sessions) { Display(s); Console.WriteLine(new string('-', 85)); }
+		Console.ReadKey();
+	}
 
-    private void FindByDateRange()
-    {
-        Console.Clear();
-        Console.Write("Начальная дата (yyyy-MM-dd): ");
-        if (!DateTime.TryParse(Console.ReadLine(), out DateTime startDate)) { UIHelper.Error("Неверный формат даты"); Console.ReadKey(); return; }
+	private void FindByDateRange()
+	{
+		Console.Clear();
+			Console.Write("Начальная дата (yyyy-MM-dd): ");
+			if (!DateTime.TryParse(Console.ReadLine(), out DateTime startDate)) { UIHelper.Error("Неверный формат даты"); Console.ReadKey(); return; }
+			startDate = DateTime.SpecifyKind(startDate, DateTimeKind.Utc);
 
-        Console.Write("Конечная дата (yyyy-MM-dd): ");
-        if (!DateTime.TryParse(Console.ReadLine(), out DateTime endDate)) { UIHelper.Error("Неверный формат даты"); Console.ReadKey(); return; }
+			Console.Write("Конечная дата (yyyy-MM-dd): ");
+			if (!DateTime.TryParse(Console.ReadLine(), out DateTime endDate)) { UIHelper.Error("Неверный формат даты"); Console.ReadKey(); return; }
+			endDate = DateTime.SpecifyKind(endDate, DateTimeKind.Utc);
 
-        var sessions = _service.GetByDateRange(startDate, endDate);
-        if (sessions.Count == 0) { UIHelper.Info("Тренировки не найдены"); Console.ReadKey(); return; }
-        Console.WriteLine($"\nНайдено: {sessions.Count}");
-        Console.WriteLine(new string('-', 85));
-        foreach (var s in sessions) { Display(s); Console.WriteLine(new string('-', 85)); }
-        Console.ReadKey();
-    }
+		var sessions = _service.GetByDateRange(startDate, endDate);
+		if (sessions.Count == 0) { UIHelper.Info("Тренировки не найдены"); Console.ReadKey(); return; }
+		Console.WriteLine($"\nНайдено: {sessions.Count}");
+		Console.WriteLine(new string('-', 85));
+		foreach (var s in sessions) { Display(s); Console.WriteLine(new string('-', 85)); }
+		Console.ReadKey();
+	}
 
-    private void Update()
-    {
-        Console.Clear();
-        Console.Write("ID тренировки: ");
-        if (!int.TryParse(Console.ReadLine(), out int id)) { UIHelper.Error("Неверный ID"); Console.ReadKey(); return; }
+	private void Update()
+	{
+		try
+		{
+			Console.Clear();
+			Console.Write("ID тренировки: ");
+			if (!int.TryParse(Console.ReadLine(), out int id)) { LoggerHelper.LogError("Некорректный ID"); UIHelper.Error("Неверный ID"); Console.ReadKey(); return; }
 
-        var session = _service.GetById(id);
-        if (session == null) { UIHelper.Error("Тренировка не найдена"); Console.ReadKey(); return; }
+			var session = _service.GetById(id);
+			if (session == null) { LoggerHelper.Log($"Тренировка с ID {id} не найдена"); UIHelper.Error("Тренировка не найдена"); Console.ReadKey(); return; }
 
-        Console.WriteLine("\nТекущие данные:");
-        Display(session);
+			Console.WriteLine("\nТекущие данные:");
+			Display(session);
 
-        Console.Write("\nНовая длительность (мин): ");
-        string durInput = Console.ReadLine() ?? "";
-        if (!string.IsNullOrWhiteSpace(durInput) && int.TryParse(durInput, out int newDur)) session.DurationMinutes = newDur;
+			Console.Write("\nНовая длительность (мин): ");
+			string durInput = Console.ReadLine() ?? "";
+			if (!string.IsNullOrWhiteSpace(durInput) && int.TryParse(durInput, out int newDur)) session.DurationMinutes = newDur;
 
-        Console.Write("Новые калории: ");
-        string calInput = Console.ReadLine() ?? "";
-        if (!string.IsNullOrWhiteSpace(calInput) && int.TryParse(calInput, out int newCal)) session.CaloriesBurned = newCal;
+			Console.Write("Новые калории: ");
+			string calInput = Console.ReadLine() ?? "";
+			if (!string.IsNullOrWhiteSpace(calInput) && int.TryParse(calInput, out int newCal)) session.CaloriesBurned = newCal;
 
-        Console.Write("Новый тип: ");
-        string newType = Console.ReadLine() ?? "";
-        if (!string.IsNullOrWhiteSpace(newType)) session.SessionType = newType;
+			Console.Write("Новый тип: ");
+			string newType = Console.ReadLine() ?? "";
+			if (!string.IsNullOrWhiteSpace(newType)) session.SessionType = newType;
 
-        if (UIHelper.Confirm("Подтвердить изменения?"))
-        {
-            _service.Update(session);
-            UIHelper.Success("Тренировка обновлена");
-        }
-        else UIHelper.Info("Отменено");
-        Console.ReadKey();
-    }
+			if (UIHelper.Confirm("Подтвердить изменения?"))
+			{
+				bool success = _service.Update(session);
+				if (success) { LoggerHelper.LogSuccess($"Тренировка обновлена (ID: {id})"); UIHelper.Success("Тренировка обновлена"); }
+				else LoggerHelper.LogError("Не удалось обновить тренировку");
+			}
+			else { LoggerHelper.Log("Обновление отменено"); UIHelper.Info("Отменено"); }
+		}
+		catch (InvalidOperationException ex) { LoggerHelper.LogError(ex.Message); UIHelper.Error(ex.Message); }
+		Console.ReadKey();
+	}
 
-    private void Delete()
-    {
-        Console.Clear();
-        Console.Write("ID тренировки: ");
-        if (!int.TryParse(Console.ReadLine(), out int id)) { UIHelper.Error("Неверный ID"); Console.ReadKey(); return; }
+	private void Delete()
+	{
+		try
+		{
+			Console.Clear();
+			Console.Write("ID тренировки: ");
+			if (!int.TryParse(Console.ReadLine(), out int id)) { LoggerHelper.LogError("Некорректный ID"); UIHelper.Error("Неверный ID"); Console.ReadKey(); return; }
 
-        var session = _service.GetById(id);
-        if (session == null) { UIHelper.Error("Тренировка не найдена"); Console.ReadKey(); return; }
+			var session = _service.GetById(id);
+			if (session == null) { LoggerHelper.Log($"Тренировка с ID {id} не найдена"); UIHelper.Error("Тренировка не найдена"); Console.ReadKey(); return; }
 
-        Console.WriteLine("\nУдаляемая тренировка:");
-        Display(session);
+			Console.WriteLine("\nУдаляемая тренировка:");
+			Display(session);
 
-        if (UIHelper.Confirm("Вы уверены? Это действие необратимо!"))
-        {
-            _service.Delete(id);
-            UIHelper.Success("Тренировка удалена");
-        }
-        else UIHelper.Info("Отменено");
-        Console.ReadKey();
-    }
+			if (UIHelper.Confirm("Вы уверены? Это действие необратимо!"))
+			{
+				bool success = _service.Delete(id);
+				if (success) { LoggerHelper.LogSuccess($"Тренировка удалена: {session.SessionType} (ID: {id})"); UIHelper.Success("Тренировка удалена"); }
+				else LoggerHelper.LogError("Не удалось удалить тренировку");
+			}
+			else { LoggerHelper.Log("Удаление отменено"); UIHelper.Info("Отменено"); }
+		}
+		catch (InvalidOperationException ex) { LoggerHelper.LogError(ex.Message); UIHelper.Error(ex.Message); }
+		Console.ReadKey();
+	}
 
-    private void Display(WorkoutSession s)
-    {
-        Console.WriteLine($"ID: {s.Id}");
-        Console.WriteLine($"Дата: {s.Date:yyyy-MM-dd HH:mm}");
-        Console.WriteLine($"Длительность: {s.DurationMinutes} мин");
-        Console.WriteLine($"Калории: {s.CaloriesBurned}");
-        Console.WriteLine($"Тип: {s.SessionType}");
-    }
+	private void Display(WorkoutSession s)
+	{
+		Console.WriteLine($"ID: {s.Id}");
+		Console.WriteLine($"Дата: {s.Date:yyyy-MM-dd HH:mm}");
+		Console.WriteLine($"Длительность: {s.DurationMinutes} мин");
+		Console.WriteLine($"Калории: {s.CaloriesBurned}");
+		Console.WriteLine($"Тип: {s.SessionType}");
+	}
 }
