@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("С#_NamespacesHW")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8a759206cc91e4541deaef440b8a9675b63e7bbf")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a432679006c081c2c7bf29faaec3c5e3d2fa8f66")]
 [assembly: System.Reflection.AssemblyProductAttribute("С#_NamespacesHW")]
 [assembly: System.Reflection.AssemblyTitleAttribute("С#_NamespacesHW")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

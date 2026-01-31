@@ -96,7 +96,13 @@ C:\Users\germa\Desktop\TOP\HW\EF_1\FitnessTracker\bin\Debug\net10.0\tr\Microsoft
 C:\Users\germa\Desktop\TOP\HW\EF_1\FitnessTracker\bin\Debug\net10.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\germa\Desktop\TOP\HW\EF_1\FitnessTracker\bin\Debug\net10.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\germa\Desktop\TOP\HW\EF_1\FitnessTracker\obj\Debug\net10.0\FitnessT.937EED82.Up2Date
-c:\Users\germa\Desktop\TOP\HW\EF_1\FitnessTracker\bin\Debug\net10.0\dotenv.net.dll
-c:\Users\germa\Desktop\TOP\HW\EF_1\FitnessTracker\bin\Debug\net10.0\DotNetEnv.dll
 c:\Users\germa\Desktop\TOP\HW\EF_1\FitnessTracker\bin\Debug\net10.0\Microsoft.Extensions.Configuration.dll
-c:\Users\germa\Desktop\TOP\HW\EF_1\FitnessTracker\bin\Debug\net10.0\Sprache.dll
+C:\Users\germa\Desktop\TOP\HW\EF_1\FitnessTracker\bin\Debug\net10.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\germa\Desktop\TOP\HW\EF_1\FitnessTracker\bin\Debug\net10.0\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\germa\Desktop\TOP\HW\EF_1\FitnessTracker\bin\Debug\net10.0\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\germa\Desktop\TOP\HW\EF_1\FitnessTracker\bin\Debug\net10.0\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\germa\Desktop\TOP\HW\EF_1\FitnessTracker\bin\Debug\net10.0\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\germa\Desktop\TOP\HW\EF_1\FitnessTracker\bin\Debug\net10.0\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\germa\Desktop\TOP\HW\EF_1\FitnessTracker\bin\Debug\net10.0\Microsoft.Extensions.Logging.Configuration.dll
+C:\Users\germa\Desktop\TOP\HW\EF_1\FitnessTracker\bin\Debug\net10.0\Microsoft.Extensions.Logging.Console.dll
+C:\Users\germa\Desktop\TOP\HW\EF_1\FitnessTracker\bin\Debug\net10.0\Microsoft.Extensions.Options.ConfigurationExtensions.dll

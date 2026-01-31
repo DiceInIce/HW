@@ -1,0 +1,60 @@
+2026-01-31 15:15:26.531 [INFORMATION] Microsoft.EntityFrameworkCore.Database.Command (EventId: 20101): Executed DbCommand (32ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-31 15:15:26.558 [INFORMATION] Microsoft.EntityFrameworkCore.Database.Command (EventId: 20101): Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-31 15:15:26.600 [INFORMATION] Microsoft.EntityFrameworkCore.Database.Command (EventId: 20101): Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-31 15:15:26.635 [INFORMATION] Microsoft.EntityFrameworkCore.Database.Command (EventId: 20101): Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-31 15:15:26.636 [INFORMATION] Microsoft.EntityFrameworkCore.Database.Command (EventId: 20101): Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-31 15:15:26.642 [INFORMATION] Microsoft.EntityFrameworkCore.Migrations (EventId: 20405): No migrations were applied. The database is already up to date.
+2026-01-31 15:16:57.986 [INFORMATION] Microsoft.EntityFrameworkCore.Database.Command (EventId: 20101): Executed DbCommand (33ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-31 15:16:58.013 [INFORMATION] Microsoft.EntityFrameworkCore.Database.Command (EventId: 20101): Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-31 15:16:58.166 [INFORMATION] Microsoft.EntityFrameworkCore.Database.Command (EventId: 20101): Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-31 15:16:58.204 [INFORMATION] Microsoft.EntityFrameworkCore.Database.Command (EventId: 20101): Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT EXISTS (
+    SELECT 1 FROM pg_catalog.pg_class c
+    JOIN pg_catalog.pg_namespace n ON n.oid=c.relnamespace
+    WHERE n.nspname='public' AND
+          c.relname='__EFMigrationsHistory'
+)
+2026-01-31 15:16:58.205 [INFORMATION] Microsoft.EntityFrameworkCore.Database.Command (EventId: 20101): Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT "MigrationId", "ProductVersion"
+FROM "__EFMigrationsHistory"
+ORDER BY "MigrationId";
+2026-01-31 15:16:58.211 [INFORMATION] Microsoft.EntityFrameworkCore.Migrations (EventId: 20405): No migrations were applied. The database is already up to date.

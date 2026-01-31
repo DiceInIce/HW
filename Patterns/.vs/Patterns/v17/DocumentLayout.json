@@ -3,8 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\germa\\Desktop\\TOP\\HW\\Patterns\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7A651590-899B-4BC0-9BCE-A22E8C7932C5}|Abstact_Factory_HW\\Abstact_Factory_HW.csproj|c:\\users\\germa\\desktop\\top\\hw\\patterns\\abstact_factory_hw\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7A651590-899B-4BC0-9BCE-A22E8C7932C5}|Abstact_Factory_HW\\Abstact_Factory_HW.csproj|solutionrelative:abstact_factory_hw\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5C22DC74-A89B-4DD9-8F6A-440DA0D63232}|Facade\\Facade.csproj|c:\\users\\germa\\desktop\\top\\hw\\patterns\\facade\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5C22DC74-A89B-4DD9-8F6A-440DA0D63232}|Facade\\Facade.csproj|solutionrelative:facade\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{79941AE2-E64C-4D3A-94F3-CC688A611699}|Observer\\Observer.csproj|c:\\users\\germa\\desktop\\top\\hw\\patterns\\observer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{79941AE2-E64C-4D3A-94F3-CC688A611699}|Observer\\Observer.csproj|solutionrelative:observer\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ECB3A637-30E8-42C3-901B-A983A599A533}|Flyweight\\Flyweight.csproj|c:\\users\\germa\\desktop\\top\\hw\\patterns\\flyweight\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{ECB3A637-30E8-42C3-901B-A983A599A533}|Flyweight\\Flyweight.csproj|solutionrelative:flyweight\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D843656E-E22E-4368-A72C-3A67A10C26CE}|Decorator\\Decorator.csproj|c:\\users\\germa\\desktop\\top\\hw\\patterns\\decorator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D843656E-E22E-4368-A72C-3A67A10C26CE}|Decorator\\Decorator.csproj|solutionrelative:decorator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7A651590-899B-4BC0-9BCE-A22E8C7932C5}|Abstact_Factory_HW\\Abstract_Factory_HW.csproj|c:\\users\\germa\\desktop\\top\\hw\\patterns\\abstact_factory_hw\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7A651590-899B-4BC0-9BCE-A22E8C7932C5}|Abstact_Factory_HW\\Abstract_Factory_HW.csproj|solutionrelative:abstact_factory_hw\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F77E3D52-2303-4279-8120-0358EBC62B7D}|Builder_HW\\Builder_HW.csproj|c:\\users\\germa\\desktop\\top\\hw\\patterns\\builder_hw\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F77E3D52-2303-4279-8120-0358EBC62B7D}|Builder_HW\\Builder_HW.csproj|solutionrelative:builder_hw\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +34,85 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\Patterns\\Observer\\Program.cs",
+              "RelativeDocumentMoniker": "Observer\\Program.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\Patterns\\Observer\\Program.cs",
+              "RelativeToolTip": "Observer\\Program.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAYwBgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-10T17:37:09.744Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\Patterns\\Flyweight\\Program.cs",
+              "RelativeDocumentMoniker": "Flyweight\\Program.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\Patterns\\Flyweight\\Program.cs",
+              "RelativeToolTip": "Flyweight\\Program.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAIwGEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-06T11:22:27.276Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\Patterns\\Facade\\Program.cs",
+              "RelativeDocumentMoniker": "Facade\\Program.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\Patterns\\Facade\\Program.cs",
+              "RelativeToolTip": "Facade\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T12:51:03.037Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\Patterns\\Decorator\\Program.cs",
+              "RelativeDocumentMoniker": "Decorator\\Program.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\Patterns\\Decorator\\Program.cs",
+              "RelativeToolTip": "Decorator\\Program.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAAAG4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-28T12:01:33.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\Patterns\\Builder_HW\\Program.cs",
+              "RelativeDocumentMoniker": "Builder_HW\\Program.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\Patterns\\Builder_HW\\Program.cs",
+              "RelativeToolTip": "Builder_HW\\Program.cs",
+              "ViewState": "AgIAAMAAAAAAAAAAAAAgwMsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T18:58:35.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\Patterns\\Abstact_Factory_HW\\Program.cs",
               "RelativeDocumentMoniker": "Abstact_Factory_HW\\Program.cs",
               "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\Patterns\\Abstact_Factory_HW\\Program.cs",
               "RelativeToolTip": "Abstact_Factory_HW\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAF8AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAiwAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-19T14:53:10.042Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-09-19T14:53:10.042Z"
             }
           ]
         }

@@ -1,17 +1,17 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\germa\\Desktop\\TOP\\HW\\6\\",
+  "WorkspaceRootPath": "C:\\Users\\germa\\Desktop\\TOP\\HW\\C#_6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E417106C-5EEC-4442-A81D-EBBF09A6DAC0}|6.4\\6.4.csproj|c:\\users\\germa\\desktop\\top\\hw\\6\\6.4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E417106C-5EEC-4442-A81D-EBBF09A6DAC0}|6.4\\6.4.csproj|c:\\users\\germa\\desktop\\top\\hw\\c#_6\\6.4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E417106C-5EEC-4442-A81D-EBBF09A6DAC0}|6.4\\6.4.csproj|solutionrelative:6.4\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15637710-AE67-4BDB-83F1-6E8154D0C002}|6.3\\6.3.csproj|c:\\users\\germa\\desktop\\top\\hw\\6\\6.3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{15637710-AE67-4BDB-83F1-6E8154D0C002}|6.3\\6.3.csproj|c:\\users\\germa\\desktop\\top\\hw\\c#_6\\6.3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{15637710-AE67-4BDB-83F1-6E8154D0C002}|6.3\\6.3.csproj|solutionrelative:6.3\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F419A89-BE17-485A-9945-254795B70748}|6.2\\6.2.csproj|c:\\users\\germa\\desktop\\top\\hw\\6\\6.2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{0F419A89-BE17-485A-9945-254795B70748}|6.2\\6.2.csproj|c:\\users\\germa\\desktop\\top\\hw\\c#_6\\6.2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F419A89-BE17-485A-9945-254795B70748}|6.2\\6.2.csproj|solutionrelative:6.2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -32,11 +32,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\6\\6.4\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\C#_6\\6.4\\Program.cs",
               "RelativeDocumentMoniker": "6.4\\Program.cs",
-              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\6\\6.4\\Program.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\C#_6\\6.4\\Program.cs",
               "RelativeToolTip": "6.4\\Program.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAwwCUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAwwCUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-06T08:59:40.52Z",
               "EditorCaption": ""
@@ -45,27 +45,25 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\6\\6.3\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\C#_6\\6.3\\Program.cs",
               "RelativeDocumentMoniker": "6.3\\Program.cs",
-              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\6\\6.3\\Program.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\C#_6\\6.3\\Program.cs",
               "RelativeToolTip": "6.3\\Program.cs",
               "ViewState": "AgIAAEgAAAAAAAAAAAAywFAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T08:39:36.58Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-06T08:39:36.58Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\6\\6.2\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\germa\\Desktop\\TOP\\HW\\C#_6\\6.2\\Program.cs",
               "RelativeDocumentMoniker": "6.2\\Program.cs",
-              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\6\\6.2\\Program.cs",
+              "ToolTip": "C:\\Users\\germa\\Desktop\\TOP\\HW\\C#_6\\6.2\\Program.cs",
               "RelativeToolTip": "6.2\\Program.cs",
               "ViewState": "AgIAAEEAAAAAAAAAAAA6wE4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-06T08:05:44.05Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-06T08:05:44.05Z"
             }
           ]
         }

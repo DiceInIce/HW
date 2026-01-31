@@ -7,4 +7,5 @@ public class Client
 	public DateTime BirthDate { get; set; }
 	public string MembershipType { get; set; } = string.Empty;
 	public DateTime RegistrationDate { get; set; }
+	public string? Email { get; set; }
 }
