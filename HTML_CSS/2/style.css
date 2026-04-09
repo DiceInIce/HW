@@ -1,0 +1,221 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.index-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.index-body h1 {
+    color: #333;
+    margin-bottom: 30px;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+nav a {
+    display: block;
+    padding: 20px 30px;
+    background-color: #fff;
+    color: #333;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    font-size: 18px;
+}
+
+nav a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+nav a span {
+    display: block;
+    font-size: 14px;
+    color: #777;
+    margin-top: 5px;
+}
+
+.content-body {
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+/* Fruits */
+
+.fruits-list {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(217, 159, 175);
+    gap: 10px;
+    color: rgb(228, 208, 197);
+}
+
+.fruits-list li {
+    display: flex;
+    align-items: center;
+    counter-increment: list-counter;
+    list-style-position: inside;
+    background-color: rgb(175, 101, 119);
+}
+
+.fruits-list li>span {
+    padding: 10px 20px;
+    
+    background-color: rgb(136, 56, 76);
+}
+
+.fruits-list li::before {
+    content: counter(list-counter) ". ";
+    margin: 10px 10px 10px 14px;
+}
+
+/* Back link */
+
+.back-link {
+    display: inline-block;
+    margin-top: 30px;
+    color: #3d3d7e;
+    text-decoration: none;
+}
+
+.back-link:hover {
+    text-decoration: underline;
+}
+
+/* Todo list */
+
+.todo-list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.todo-list li {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+}
+
+.todo-list li:nth-child(odd) {
+    background-color: #a8d5e2;
+}
+
+.todo-list li:nth-child(even) {
+    background-color: #8fc4d5;
+}
+
+.todo-list li:has(input:checked) {
+    background-color: #e0e0e0;
+}
+
+.todo-list li:has(input:checked) span:first-of-type {
+    text-decoration: line-through;
+}
+
+.todo-list input[type="checkbox"] {
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #333;
+    cursor: pointer;
+    flex-shrink: 0;
+    position: relative;
+}
+
+.todo-list input[type="checkbox"]:checked {
+    background-image: url("assets/icons/checked_16.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.todo-list .delete {
+    color: #cc0000;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+/* Tag definition */
+
+.tag-def-body h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.phonetic {
+    color: #333;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.part-of-speech {
+    font-style: italic;
+    color: #666;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.tag-def-body dl dd {
+    margin-left: 30px;
+    margin-bottom: 20px;
+}
+
+.tag-def-body ol {
+    margin-left: 20px;
+}
+
+.tag-def-body ol li {
+    margin-bottom: 10px;
+}
+
+.definition {
+    font-weight: 500;
+}
+
+.example {
+    color: #888;
+    margin: 5px 0;
+}
+
+.synonyms {
+    color: #333;
+    margin: 5px 0;
+}
+
+.synonyms a {
+    color: #5b5baa;
+    text-decoration: none;
+}
+
+.synonyms a:hover {
+    text-decoration: underline;
+}
