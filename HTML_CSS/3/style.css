@@ -1,0 +1,317 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Index */
+
+.index-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+    background-color: #f5f5f5;
+}
+
+.index-body h1 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.index-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.index-nav a {
+    display: block;
+    padding: 20px 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.index-nav a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.index-nav a span {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #777;
+}
+
+/* Task 1 — Fridge */
+
+.fridge-body {
+    background-color: #f0f0f0;
+    padding: 30px 20px 50px;
+}
+
+.fridge-body h1 {
+    margin-bottom: 30px;
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 180px;
+    height: 200px;
+    padding: 15px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.product img {
+    width: 80px;
+    height: 80px;
+    margin-bottom: 12px;
+    object-fit: contain;
+}
+
+.product span {
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.fridge-footer {
+    max-width: 1000px;
+    margin: 40px auto 0;
+    padding-top: 20px;
+    border-top: 1px solid #ccc;
+    font-size: 16px;
+    text-align: center;
+    color: #666;
+}
+
+/* Task 2 — Vertical menu */
+
+.menu-page {
+    min-height: 100vh;
+    padding: 40px;
+    background-color: #e8e8e8;
+}
+
+.sidebar-menu {
+    width: 280px;
+    list-style: none;
+    background-color: #9e9e9e;
+}
+
+.sidebar-menu li a {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 18px 20px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    transition: background-color 0.2s;
+}
+
+.sidebar-menu li a:hover {
+    background-color: #6e6e6e;
+}
+
+.sidebar-menu img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+}
+
+/* Task 3 — Float layout */
+
+.layout-page {
+    background-color: #fff;
+}
+
+.layout-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.layout-page header.layout-block {
+    background-color: #a54d6d;
+}
+
+.layout-page nav.layout-block {
+    background-color: #5d1031;
+}
+
+.layout-page footer.layout-block {
+    background-color: #5d1031;
+}
+
+.layout-content {
+    overflow: hidden;
+}
+
+.layout-left {
+    float: left;
+    width: 22%;
+}
+
+.layout-left aside.layout-block {
+    min-height: 120px;
+    background-color: #a54d6d;
+}
+
+.layout-left aside.layout-block + aside.layout-block {
+    margin-top: 4px;
+}
+
+.layout-main {
+    float: left;
+    width: 56%;
+    margin-left: 0.5%;
+}
+
+.layout-main section.layout-block {
+    min-height: 100px;
+    background-color: #d996b0;
+}
+
+.layout-main section.layout-block + section.layout-block {
+    margin-top: 4px;
+}
+
+.layout-aside-right.layout-block {
+    float: right;
+    width: 20%;
+    min-height: 248px;
+    background-color: #a54d6d;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+}
+
+/* Task 4 — Footer */
+
+.footer-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+
+.site-footer {
+    margin-top: auto;
+    padding: 40px 60px 25px;
+    background-color: #3d5a80;
+    color: #fff;
+}
+
+.footer-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+
+.footer-menu {
+    list-style: none;
+}
+
+.footer-menu li + li {
+    margin-top: 8px;
+}
+
+.footer-menu a {
+    font-size: 16px;
+    transition: text-decoration 0.2s;
+}
+
+.footer-menu a:hover {
+    text-decoration: underline;
+}
+
+.footer-social {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.footer-social a {
+    display: block;
+    width: 48px;
+    height: 48px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition: background-image 0.2s;
+}
+
+.footer-social .social-fb {
+    background-image: url("assets/img/fb_gray.png");
+}
+
+.footer-social .social-fb:hover {
+    background-image: url("assets/img/fb.png");
+}
+
+.footer-social .social-insta {
+    background-image: url("assets/img/insta_gray.png");
+}
+
+.footer-social .social-insta:hover {
+    background-image: url("assets/img/insta.png");
+}
+
+.footer-social .social-youtube {
+    background-image: url("assets/img/youtube_gray.png");
+}
+
+.footer-social .social-youtube:hover {
+    background-image: url("assets/img/youtube.png");
+}
+
+.footer-bottom {
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    font-size: 14px;
+    text-align: center;
+}
