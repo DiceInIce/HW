@@ -1,0 +1,306 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Index */
+
+.index-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+    background-color: #f5f5f5;
+}
+
+.index-body h1 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.index-nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.index-nav a {
+    display: block;
+    padding: 20px 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.index-nav a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.index-nav a span {
+    display: block;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #777;
+}
+
+/* Task 1 — News columns */
+
+.news-page {
+    min-height: 100vh;
+    padding: 24px 16px;
+    background-color: #7eb8e8;
+}
+
+.news-columns {
+    display: flex;
+    gap: 16px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.news-column {
+    flex: 1;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.news-card {
+    background-color: #fff;
+}
+
+.news-card img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.news-card__body {
+    padding: 12px 14px 16px;
+}
+
+.news-card__title {
+    margin-bottom: 8px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.news-card__text {
+    font-size: 13px;
+    line-height: 1.45;
+    color: #444;
+}
+
+/* Task 2 — Chat */
+
+.chat-page {
+    min-height: 100vh;
+    padding: 32px 16px 48px;
+    background-color: #ececec;
+}
+
+.chat {
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.msg {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+    column-gap: 12px;
+}
+
+.msg__user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.msg__user--left {
+    justify-self: end;
+}
+
+.msg__user--right {
+    justify-self: start;
+}
+
+.msg__meta {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    font-size: 13px;
+}
+
+.msg__user--left .msg__meta {
+    text-align: right;
+}
+
+.msg__user--right .msg__meta {
+    text-align: left;
+}
+
+.msg__name {
+    font-weight: normal;
+    color: #222;
+}
+
+.msg__time {
+    font-size: 12px;
+    color: #888;
+}
+
+.msg__avatar {
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+}
+
+.msg__bubble {
+    max-width: 520px;
+    padding: 18px 22px;
+    border-radius: 18px;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: left;
+}
+
+.msg__bubble--pink {
+    background-color: #fdb8c4;
+}
+
+.msg__bubble--blue {
+    background-color: #b8d4f0;
+}
+
+/* Task 3 — Boards */
+
+.boards-page {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: #007272;
+}
+
+.boards-header {
+    flex-shrink: 0;
+    padding: 18px 20px 14px;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    color: #fff;
+    background-color: #007272;
+}
+
+.boards-main {
+    flex: 1;
+    min-height: 0;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+.boards-track {
+    display: flex;
+    gap: 16px;
+    height: 100%;
+    padding: 0 16px 16px;
+}
+
+.board {
+    flex: 0 0 350px;
+    width: 350px;
+    min-width: 300px;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    max-height: 100%;
+    padding: 12px 10px 10px;
+    border-radius: 4px;
+    background-color: #c8c8c8;
+}
+
+.board__title {
+    flex-shrink: 0;
+    margin-bottom: 10px;
+    padding: 0 4px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.board__cards {
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.task-card {
+    flex-shrink: 0;
+    padding: 10px 10px 8px;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+.task-card__text {
+    margin-bottom: 10px;
+    font-size: 13px;
+    line-height: 1.4;
+    color: #333;
+}
+
+.task-card__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.task-card__meta {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    color: #666;
+}
+
+.task-card__meta span {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.task-card__meta img {
+    display: block;
+    width: 16px;
+    height: 16px;
+}
+
+.task-card__avatar {
+    width: 28px;
+    height: 28px;
+    flex-shrink: 0;
+}
