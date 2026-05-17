@@ -1,0 +1,158 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px 24px;
+    background: #d0d0d0;
+    font-family: "Segoe UI", Arial, Helvetica, sans-serif;
+}
+
+/* Отступ слева — под выступ ленты */
+.card-shell {
+    width: 100%;
+    max-width: 880px;
+    padding-left: 28px;
+}
+
+/* Лента вынесена из overflow:hidden, выезжает влево */
+.card-form__header {
+    position: relative;
+    z-index: 2;
+    width: 60%;
+    margin: 0 0 0 -28px;
+    padding: 11px 28px 11px 34px;
+    background: #e66e25;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    line-height: 1.2;
+    border-radius: 0 0 6px 0;
+}
+
+.card-form {
+    position: relative;
+    min-height: 280px;
+    margin-top: -46px;
+    padding-top: 46px;
+    background: #a2c6c8;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.card-form__body {
+    position: relative;
+    z-index: 1;
+    padding: 22px 20px 28px 26px;
+}
+
+.card-form__fields {
+    width: 52%;
+    max-width: 400px;
+}
+
+.card-form__group {
+    margin-bottom: 16px;
+}
+
+.card-form__group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #4a7c7e;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.card-form__group input {
+    width: 100%;
+    padding: 9px 10px 7px;
+    border: none;
+    border-bottom: 2px solid #4a7c7e;
+    border-radius: 4px 4px 0 0;
+    background: rgba(255, 255, 255, 0.22);
+    color: #4a7c7e;
+    font-size: 14px;
+    outline: none;
+}
+
+.card-form__group input::placeholder {
+    color: #88a3a5;
+}
+
+.card-form__row {
+    display: flex;
+    gap: 28px;
+    align-items: flex-start;
+}
+
+.card-form__row .card-form__group {
+    margin-bottom: 0;
+}
+
+.card-form__expiry {
+    display: flex;
+    gap: 10px;
+}
+
+.card-form__expiry input {
+    width: 50px;
+    flex: none;
+}
+
+.card-form__expiry input:last-child {
+    width: 62px;
+}
+
+.card-form__cvv input {
+    width: 70px;
+}
+
+/* Картинка — строго правый нижний угол карточки */
+.card-form__art {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    width: 50%;
+    max-width: 380px;
+    line-height: 0;
+    pointer-events: none;
+}
+
+.card-form__art img {
+    display: block;
+    width: 100%;
+    height: auto;
+    vertical-align: bottom;
+}
+
+@media (max-width: 640px) {
+    .card-shell {
+        padding-left: 20px;
+    }
+
+    .card-form__header {
+        width: 80%;
+        margin-left: -20px;
+        padding-left: 26px;
+    }
+
+    .card-form__fields {
+        width: 100%;
+        max-width: none;
+    }
+
+    .card-form__art {
+        position: static;
+        width: 200px;
+        margin: 0 auto 12px;
+    }
+}

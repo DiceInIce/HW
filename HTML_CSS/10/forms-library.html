@@ -1,0 +1,74 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms Library</title>
+    <link rel="stylesheet" href="forms-library.css">
+    <link rel="stylesheet" href="forms-library-demo.css">
+</head>
+
+<body>
+    <section class="demo-section">
+        <h2 class="demo-section__title">Inputs</h2>
+        <div class="demo-row demo-row--inputs">
+            <input class="input-untouched" type="text" placeholder="Enter some text">
+            <input class="input-valid" type="text" value="valid text" readonly>
+            <input class="input-invalid" type="text" value="invalid text" readonly>
+        </div>
+    </section>
+
+    <section class="demo-section">
+        <h2 class="demo-section__title">Check boxes</h2>
+        <div class="demo-row demo-row--checkboxes">
+            <label class="checkbox-wrap checkbox-on">
+                <input type="checkbox" checked tabindex="-1">
+                <span class="checkbox-switch"></span>
+                Subscribe
+            </label>
+            <label class="checkbox-wrap checkbox-off">
+                <input type="checkbox" tabindex="-1">
+                <span class="checkbox-switch"></span>
+                Subscribe
+            </label>
+        </div>
+    </section>
+
+    <section class="demo-section">
+        <h2 class="demo-section__title">Radio buttons</h2>
+        <div class="radio-group">
+            <span class="radio-group__label">Gender:</span>
+            <label class="radio-item radio-checked">
+                <input type="radio" name="gender" value="male" checked tabindex="-1">
+                <span class="radio-circle"></span>
+                Male
+            </label>
+            <label class="radio-item radio-unchecked">
+                <input type="radio" name="gender" value="female" tabindex="-1">
+                <span class="radio-circle"></span>
+                Female
+            </label>
+        </div>
+    </section>
+
+    <section class="demo-section">
+        <h2 class="demo-section__title">Buttons</h2>
+        <div class="demo-row demo-row--buttons">
+            <button type="button" class="btn-green">Active</button>
+            <button type="button" class="btn-green-hover">Hover</button>
+            <button type="button" class="btn-red">Danger</button>
+            <button type="button" class="btn-red-hover">Hover</button>
+            <button type="button" class="btn-disabled" disabled>Disabled</button>
+            <button type="button" class="btn-round-green" aria-label="Add">+</button>
+            <button type="button" class="btn-round-red" aria-label="Remove">-</button>
+        </div>
+    </section>
+
+    <section class="demo-section">
+        <h2 class="demo-section__title">Text area</h2>
+        <textarea class="textarea-default" placeholder="Enter some text..."></textarea>
+    </section>
+</body>
+
+</html>

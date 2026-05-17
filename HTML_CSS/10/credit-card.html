@@ -1,0 +1,54 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credit Card Details</title>
+    <link rel="stylesheet" href="credit-card.css">
+</head>
+
+<body>
+    <div class="card-shell">
+        <h1 class="card-form__header">CREDIT CARD DETAILS</h1>
+
+        <div class="card-form">
+            <div class="card-form__body">
+                <form class="card-form__fields" action="#" method="post">
+                    <div class="card-form__group">
+                        <label for="card-number">Card Number</label>
+                        <input type="text" id="card-number" name="card-number" placeholder="1234 5678 9012 3456"
+                            inputmode="numeric" autocomplete="cc-number">
+                    </div>
+                    <div class="card-form__group">
+                        <label for="card-name">Name On Card</label>
+                        <input type="text" id="card-name" name="card-name" placeholder="Name Surname"
+                            autocomplete="cc-name">
+                    </div>
+                    <div class="card-form__row">
+                        <div class="card-form__group">
+                            <label>Expiry Date</label>
+                            <div class="card-form__expiry">
+                                <input type="text" name="exp-month" placeholder="02" maxlength="2"
+                                    inputmode="numeric" aria-label="Month">
+                                <input type="text" name="exp-year" placeholder="2017" maxlength="4"
+                                    inputmode="numeric" aria-label="Year">
+                            </div>
+                        </div>
+                        <div class="card-form__group card-form__cvv">
+                            <label for="cvv">CVV / CVN</label>
+                            <input type="password" id="cvv" name="cvv" placeholder="***" maxlength="4"
+                                autocomplete="cc-csc">
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+            <div class="card-form__art" aria-hidden="true">
+                <img src="img/moon_flag.png" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

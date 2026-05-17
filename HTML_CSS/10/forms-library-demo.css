@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 36px 20px;
+    background: #ececec;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.demo-section {
+    width: 100%;
+    max-width: 900px;
+    margin-bottom: 32px;
+}
+
+.demo-section__title {
+    margin: 0 0 14px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+    text-align: left;
+}
+
+.demo-row {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 18px;
+}
+
+.demo-row--inputs {
+    gap: 22px;
+}
+
+.demo-row--checkboxes {
+    gap: 28px;
+}
+
+.demo-row--buttons {
+    gap: 14px;
+}
