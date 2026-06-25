@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Палетка</title>
+  <link rel="stylesheet" href="../index.css">
+</head>
+
+<body class="index-body">
+  <h1>Создай новый цвет</h1>
+
+  <form id="colorForm" class="color-form">
+    <div class="form-group">
+      <label for="colorName">Название:</label>
+      <input type="text" id="colorName" placeholder="Введите название цвета">
+      <span class="error" id="colorNameError"></span>
+    </div>
+
+    <div class="form-group">
+      <label for="colorType">Тип:</label>
+      <select id="colorType">
+        <option value="RGB">RGB</option>
+        <option value="RGBA">RGBA</option>
+        <option value="HEX">HEX</option>
+      </select>
+      <span class="error" id="colorTypeError"></span>
+    </div>
+
+    <div class="form-group">
+      <label for="colorCode">Код цвета:</label>
+      <input type="text" id="colorCode" placeholder="Введите код цвета">
+      <span class="error" id="colorCodeError"></span>
+    </div>
+
+    <button type="submit">Сохранить</button>
+  </form>
+
+  <h2>Все цвета</h2>
+  <div class="all-colors" id="allColors">
+
+  </div>
+
+</body>
+
+<script src="palette.js"></script>
+</html>

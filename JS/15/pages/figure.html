@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Фигурки</title>
+  <link rel="stylesheet" href="../index.css">
+</head>
+<body class="index-body">
+  <h1>PAINT</h1>
+
+  <div class="toolbar">
+    <div class="toolbar-row">
+      <div class="toolbar-label">Форма</div>
+      <button class="shape-btn selected" data-shape="square">■</button>
+      <button class="shape-btn" data-shape="circle">○</button>
+      <button class="shape-btn" data-shape="diamond">◆</button>
+      <button class="shape-btn" data-shape="triangle">▲</button>
+    </div>
+
+    <div class="toolbar-row">
+      <div class="toolbar-label">Цвет</div>
+      <button class="color-btn selected" data-color="#000000" style="background:#000000"></button>
+      <button class="color-btn" data-color="#ffffff" style="background:#ffffff"></button>
+      <button class="color-btn" data-color="#ffd500" style="background:#ffd500"></button>
+      <button class="color-btn" data-color="#74c0e3" style="background:#74c0e3"></button>
+      <button class="color-btn" data-color="#f497c1" style="background:#f497c1"></button>
+      <button class="color-btn" data-color="#9f4dff" style="background:#9f4dff"></button>
+      <button class="color-btn" data-color="#5bcf00" style="background:#5bcf00"></button>
+      <button class="color-btn" data-color="#ff4d4d" style="background:#ff4d4d"></button>
+    </div>
+  </div>
+
+  <canvas id="draw-canvas" width="900" height="500"></canvas>
+  <script src="figure.js"></script>
+</body>
+</html>
