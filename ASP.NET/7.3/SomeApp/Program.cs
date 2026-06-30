@@ -111,3 +111,5 @@ app.MapGet("/search", async (HttpContext ctx, string query) =>
     var results = tasks.Where(t => t.Name.Contains(query, StringComparison.OrdinalIgnoreCase)).ToList();
     await ctx.Response.WriteAsJsonAsync(results);
 });
+
+app.Run();
